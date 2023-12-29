@@ -83,19 +83,21 @@
 
             .nav-link {
                 margin: 3px 10px;
-                padding: 20px 0px 0px 0px ;
+                padding: 20px 0px 0px 0px;
                 width: 25%;
                 height: 90px;
 
             }
-            .nav-link img {
-            width: 50px;
-            height: 50px;
 
-        }
-        .nav-link span {
-            font-size: 15px;
-        }
+            .nav-link img {
+                width: 50px;
+                height: 50px;
+
+            }
+
+            .nav-link span {
+                font-size: 15px;
+            }
         }
     </style>
     <style>
@@ -159,63 +161,65 @@
         }
     </style>
     <style>
-.header{
-    margin: 15px 0px;
-    color: rgb(116, 45, 44);
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
+        .header {
+            margin: 15px 0px;
+            color: rgb(116, 45, 44);
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
 
-.main-column {
-    padding: 0px;
-    margin: 5px;
-}
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    #main {
-        flex: 0 0 74%;
-        order:1;
+        .main-column {
+            padding: 0px;
+            margin: 5px;
+        }
 
-    }
+        #main {
+            flex: 0 0 74%;
+            order: 1;
 
-    #announcement {
-        flex: 0 0 24%;
-        order: 2;
-    }
+        }
 
-    #announcement div {
-        text-align: center;
-        font-size: 20px;
-        background-color: rgba(223, 192, 185, 0.61);
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    }
+        #announcement {
+            flex: 0 0 24%;
+            order: 2;
+        }
 
-    #announcement  .date{
-        font-weight: bold;
-    }
-/* Small screens */
-@media (max-width: 767px) {
-    .column {
-        flex: 0 0 100%;
-    }
-    #main {
-        flex: 0 0 100%;
-        order:2;
+        #announcement div {
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(223, 192, 185, 0.61);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        }
 
-    }
+        #announcement .date {
+            font-weight: bold;
+        }
 
-    #announcement {
-        flex: 0 0 100%;
-        order: 1;
-    }
-}
+        /* Small screens */
+        @media (max-width: 767px) {
+            .column {
+                flex: 0 0 100%;
+            }
 
+            #main {
+                flex: 0 0 100%;
+                order: 2;
+
+            }
+
+            #announcement {
+                flex: 0 0 100%;
+                order: 1;
+            }
+        }
     </style>
     <style>
         .content {
@@ -248,15 +252,15 @@
         <div class="row header">
             Row 1
         </div>
-        <div class="row"> 
+        <div class="row">
 
             <div class="main-container">
                 <div id="announcement" class="main-column">
                     <div>
-                    The 3rd International Conference on Engineering and Innovative Technology
-                    <p class="date">18-19 Sep 2024</p>
-                    Erbil, Kurdistan, Iraq
-                </div>
+                        The 3rd International Conference on Engineering and Innovative Technology (ICEIT 2024)
+                        <p class="date">September 18-19, 2024</p>
+                        Erbil, Kurdistan, Iraq
+                    </div>
                 </div>
                 <div id="main" class="main-column">
                     <div class="content">
@@ -293,4 +297,5 @@
         </div>
     </div>
 </body>
+
 </html>
