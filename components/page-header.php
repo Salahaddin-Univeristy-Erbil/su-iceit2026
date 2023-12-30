@@ -11,8 +11,8 @@
         <img src="img/about.png" alt="Icon 2">
         <span>About</span>
     </a>
-    <a href="speakers.php" class="nav-link">
-        <img src="img/Plenary-Speakers.png" alt="Icon 3">
-        <span>Speakers</span>
+    <a href="authors.php" class="nav-link">
+        <img src="img/authors.png" alt="Icon 3">
+        <span>Authors</span>
     </a>
 </div>

@@ -11,46 +11,7 @@
     <link rel="stylesheet" href="css\countdown.css">
     <link rel="stylesheet" href="css\cards.css">
     <link rel="stylesheet" href="css/footer.css">
-    <style>
 
-        .overlay-button {
-            position: absolute;
-            bottom: 30%;
-            /* Adjust as needed */
-            left: 50%;
-            transform: translateX(-50%);
-            width: 70px;
-            /* Size of the button */
-            height: 70px;
-            /* Size of the button */
-            border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.5);
-            /* Half transparent white */
-            border: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.3s ease;
-            text-decoration: none;
-        }
-
-        .overlay-button:hover {
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-
-        .arrow {
-            color: maroon;
-            font-size: 20px;
-            /* Adjust as needed */
-            transition: transform 0.3s ease;
-        }
-
-        .overlay-button:hover .arrow {
-            transform: translateY(5px);
-            /* Small animation on hover */
-        }
-    </style>
 </head>
 
 <body>
@@ -67,7 +28,7 @@
             </h1>
         </div>
         <a class="overlay-button" href="#countdown">
-            <span class="arrow">&#x25BC;</span> <!-- Unicode Character for Downward Arrow -->
+            <span class="arrow">&#x25BC;</span> 
         </a>
     </header>
 
@@ -108,10 +69,34 @@
             <?php
             $cards = [
                 [
+                    'title' => 'About',
+                    'content' => ' About International Conference of Engineering and Innovative Technology',
+                    'img' => 'img/about.png',
+                    'link' => 'about.php',
+                ],
+                [
+                    'title' => 'Organization Committees',
+                    'content' => 'Organizing Committee',
+                    'img' => 'img/Organization-Committees.png',
+                    'link' => 'committee.php',
+                ],               
+                [
                     'title' => 'Call for Papers',
                     'content' => 'Request from a professional journal, conference to submit your research',
                     'img' => 'img/Call-for-Paper.png',
                     'link' => 'call.php',
+                ],
+                [
+                    'title' => 'Information for Authors',
+                    'content' => 'Please find information for authors here',
+                    'img' => 'img/authors.png',
+                    'link' => 'authors.php',
+                ],
+                [
+                    'title' => 'Plenary Speakers',
+                    'content' => 'Keynote Speakers and Scientific Sessions',
+                    'img' => 'img/Plenary-Speakers.png',
+                    'link' => 'speakers.php',
                 ],
                 [
                     'title' => 'Paper Submission',
@@ -125,24 +110,7 @@
                     'img' => 'img/Registration.png',
                     'link' => 'registration.php',
                 ],
-                [
-                    'title' => 'About',
-                    'content' => ' About International Conference of Engineering and Innovative Technology',
-                    'img' => 'img/about.png',
-                    'link' => 'about.php',
-                ],
-                [
-                    'title' => 'Plenary Speakers',
-                    'content' => 'Keynote Speakers and Scientific Sessions',
-                    'img' => 'img/Plenary-Speakers.png',
-                    'link' => 'speakers.php',
-                ],
-                [
-                    'title' => 'Organization Committees',
-                    'content' => 'Organizing Committee',
-                    'img' => 'img/Organization-Committees.png',
-                    'link' => 'committee.php',
-                ],
+
             ];
 
             foreach ($cards as $card):

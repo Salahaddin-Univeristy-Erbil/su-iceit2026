@@ -332,3 +332,49 @@
   line-height: 1.6;
 }
 
+/*-----------------------------*/
+/*------------overlay-----------*/
+
+.overlay-button {
+  position: absolute;
+  bottom: 30%;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  /* Size of the button */
+  height: 70px;
+  /* Size of the button */
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Half transparent white */
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.overlay-button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.arrow {
+  color: maroon;
+  font-size: 20px;
+  /* Adjust as needed */
+  transition: transform 0.3s ease;
+}
+
+.overlay-button:hover .arrow {
+  transform: translateY(5px);
+  /* Small animation on hover */
+}
+
+@media (max-width: 700px) {
+  .overlay-button {
+    display: none;
+  }
+}
