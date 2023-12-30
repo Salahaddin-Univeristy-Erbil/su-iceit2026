@@ -5,6 +5,7 @@ body {
 }
 
 header {
+  height: 440px; /* New height after cropping (800 - 200 - 300) */
   color: white;
   text-align: center;
   padding: 0;
@@ -12,17 +13,31 @@ header {
 }
 
 header img {
+  width: auto;
+
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
+  margin-top: -200px;
+  
 }
-
+/*
+header img {
+  margin-left: -400px;
+  height: 500px;
+  width: auto;
+}
+*/
 @media (max-width: 600px) {
   header img {
-    margin-left: -400px;
+    margin-left: -350px;
+    margin-top: 0px;
     height: 500px;
     width: auto;
+  }
+  header {
+    height: auto;  
   }
 }
 

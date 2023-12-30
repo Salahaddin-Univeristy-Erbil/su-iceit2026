@@ -11,6 +11,46 @@
     <link rel="stylesheet" href="css\countdown.css">
     <link rel="stylesheet" href="css\cards.css">
     <link rel="stylesheet" href="css/footer.css">
+    <style>
+
+        .overlay-button {
+            position: absolute;
+            bottom: 30%;
+            /* Adjust as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70px;
+            /* Size of the button */
+            height: 70px;
+            /* Size of the button */
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            /* Half transparent white */
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .overlay-button:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .arrow {
+            color: maroon;
+            font-size: 20px;
+            /* Adjust as needed */
+            transition: transform 0.3s ease;
+        }
+
+        .overlay-button:hover .arrow {
+            transform: translateY(5px);
+            /* Small animation on hover */
+        }
+    </style>
 </head>
 
 <body>
@@ -19,18 +59,22 @@
         <video src="./img/erbil.mp4" class="" autoplay muted loop width="100%" height="100%"></video>
         <div class="header-overlay">
             <h1>
-                2024 Conference <br />
-                Engineering College <br />
-                Salahaddin University<br />
-                Erbil, Iraq <br />
+                <div>
+                    The 3rd International Conference on Engineering and Innovative Technology (ICEIT 2024)
+                    <p class="date">September 18-19, 2024</p>
+                    Erbil, Kurdistan, Iraq
+                </div>
             </h1>
         </div>
+        <a class="overlay-button" href="#countdown">
+            <span class="arrow">&#x25BC;</span> <!-- Unicode Character for Downward Arrow -->
+        </a>
     </header>
 
     <article class="row content">
         <section>
             <div class="wrapper">
-                <div id="countdown">
+                <div id="countdown" >
                     <div class="cd-box timeRefDays">
                         <p class="numbers days">00</p>
                         <p class="strings">Days</p>
@@ -141,8 +185,8 @@
                     including Springer, AIJR, IoP, and The Web of Conferences. Each engineering sector's proceedings
                     will find a suitable publisher. </p>
                 <br>
-                    <h2>Conference Overview</h2>
-                    <div class="conference-overview">
+                <h2>Conference Overview</h2>
+                <div class="conference-overview">
 
                     <ul>
                         <li><strong>Name:</strong> International Conference on Engineering and Technology (ICEIT)</li>

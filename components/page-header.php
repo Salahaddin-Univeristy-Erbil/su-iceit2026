@@ -1,5 +1,5 @@
 <header>
-    <img src="img/erbilgenerated2.png" alt="Logo" width="100%">
+    <img src="img/erbil.jpg" alt="Erbil" width="100%">
 </header>
 <div class="nav-container">
 
