@@ -8,21 +8,34 @@
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <style>
+        .coming-soon-container {
+            text-align: center;
+        }
+
+        .coming-soon {
+            font-size: 4em;
+            color: #800000;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
     <?php include 'components/page-header.php'; ?>
     <div class="container">
-        <div class="row header">
-            Row 1
-        </div>
+
         <div class="row">
 
             <div class="main-container">
                 <?php include 'components/page-card.php'; ?>
                 <div id="main" class="main-column">
-                    <div class="content">
-                        Main
+                    <div class="header">
+                        Paper Submission
+                    </div>
+                    <div class="content coming-soon-container">
+                        <h1 class="coming-soon">Coming Soon</h1>
+
                     </div>
 
                 </div>
@@ -35,4 +48,5 @@
             </div>
         </div>
 </body>
+
 </html>

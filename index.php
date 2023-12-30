@@ -84,7 +84,7 @@
                 [
                     'title' => 'About',
                     'content' => ' About International Conference of Engineering and Innovative Technology',
-                    'img' => 'img/About.png',
+                    'img' => 'img/about.png',
                     'link' => 'about.php',
                 ],
                 [
@@ -103,26 +103,26 @@
 
             foreach ($cards as $card):
                 ?>
-                <div class="card">
-                    <div class="card-icon">
-                        <img src="<?php echo htmlspecialchars($card['img']); ?>" alt="Card Image" width="100%" />
-                    </div>
-                    <div class="card-body">
-                        <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
-                        <div class="card-content">
-                            <?php echo htmlspecialchars($card['content']); ?>
-                        </div>
-                        <a href="<?php echo htmlspecialchars($card['link']); ?>" class="card-detail-link">
-                            <div class="card-detail">More Details</div>
-                            <div class="circle">&gt;</div>
-                        </a>
-                    </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="<?php echo htmlspecialchars($card['img']); ?>" alt="Card Image" width="100%" />
                 </div>
-                <?php
+                <div class="card-body">
+                    <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
+                    <div class="card-content">
+                        <?php echo htmlspecialchars($card['content']); ?>
+                    </div>
+                    <a href="<?php echo htmlspecialchars($card['link']); ?>" class="card-detail-link">
+                        <div class="card-detail">More Details</div>
+                        <div class="circle">&gt;</div>
+                    </a>
+                </div>
+            </div>
+            <?php
             endforeach;
             ?>
         </div>
-        
+
 
 
     </article>
@@ -132,49 +132,57 @@
 
         <div class="container">
             <div class="first-column">
-                <h1>Conference 2024 Calls</h1>
+                <h2>Information for Authors</h2>
+                <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and technology in
+                    the Kurdistan region of Iraq. Hosted and organized biennially by the College of Engineering at
+                    Salahaddin University-Erbil, the conference has gained prominence through the publication of papers
+                    from ICEIT2019 and ICEIT2026 in the Zanco journal for pure and applied Science @SUE. However, for
+                    ICEIT2024, the publication committee is currently engaged in discussions with esteemed publishers,
+                    including Springer, AIJR, IoP, and The Web of Conferences. Each engineering sector's proceedings
+                    will find a suitable publisher. </p>
+                <br>
+                    <h2>Conference Overview</h2>
+                    <div class="conference-overview">
 
-                <h2>Call For Papers</h2>
-                <p>Papers for IEEE WCCI 2024 should be submitted electronically through the Congress submission portal,
-                    and will
-                    be refereed by experts in the fields and ranked based on the criteria of originality, significance,
-                    quality
-                    and clarity.</p>
+                    <ul>
+                        <li><strong>Name:</strong> International Conference on Engineering and Technology (ICEIT)</li>
+                        <li><strong>Year:</strong> 2024</li>
+                        <li><strong>Hosted By:</strong> College of Engineering at Salahaddin University-Erbil</li>
+                        <li><strong>Location:</strong> Erbil, Kurdistan Region of Iraq</li>
+                        <li><strong>Proceeding Publishers:</strong> Springer, AIJR, IoP, The Web of Conferences</li>
+                    </ul>
+                </div>
 
-                <h2>Call For Tutorials</h2>
-                <p>IEEE WCCI 2024 will feature pre-Congress tutorials, covering fundamental and advanced topics in
-                    computational
-                    intelligence. A tutorial proposal should include title, outline, expected enrollment, and
-                    presenter/organizer
-                    biography. Inquiries regarding tutorials should be addressed to Tutorials Chairs.</p>
-
-
-                <h2>Call For Special Session Proposals </h2>
-                <p>IEEE WCCI 2024 solicits proposals for special sessions within the technical scope of the three
-                    conferences.
-                    Special sessions, to be organized by internationally recognized experts, aim to bring together
-                    researchers in
-                    special focused topics. Cross-fertilization of the three technical disciplines and newly emerging
-                    research
-                    areas are strongly encouraged. Inquiries regarding special sessions and proposals should be
-                    addressed to
-                    Special Sessions Chairs.</p>
-
-                <h2>Call For Competition Proposals</h2>
-                <p>IEEE WCCI 2024 will host competitions to stimulate research in computational intelligence. A
-                    competition
-                    proposal should include descriptions of the problem(s) addressed, evaluation procedures, and a
-                    biography of
-                    the organizers. Inquiries regarding competitions should be addressed to the Competitions Chair.</p>
+                <h2>Terms and Conditions</h2>
+                <div class="conference-overview">
+                    <ul>
+                        <li><strong>Language:</strong> English</li>
+                        <li><strong>Article Length:</strong> 4-8 pages inclusive</li>
+                        <li><strong>Number of Papers:</strong> Each author can present a maximum of two papers.
+                            Additional papers require registration of accompanying co-author(s).</li>
+                        <li><strong>Registration:</strong> Authors must register for the conference and present their
+                            work.</li>
+                        <li><strong>No Show Policy:</strong> Papers will be published only if at least one author is
+                            registered and the paper is presented. Non-presented papers may be excluded from online
+                            distribution post-conference.</li>
+                        <li><strong>Authorization to Publish:</strong> Authors must ensure that their material is
+                            available for general dissemination. Signed ICEIT2024 Copyright Forms are required for all
+                            accepted papers.</li>
+                    </ul>
+                </div>
 
 
+                <br>
                 <a href="submission-portal.php" class="button-link">Submission Portal</a>
 
 
             </div>
-            <div class="second-column">
+
+            <div class="second-column"><!--
                 <img src="img/call-for-paper-page.png" alt="call-for-paper-page" width="100%" class="rounded-image">
+             -->
             </div>
+
         </div>
 
 
@@ -186,30 +194,59 @@
         // Define an array of important dates and their descriptions
         $importantDates = [
             [
-                'date' => '2024-08-01',
-                'description' => 'Call for',
+                'date' => '1 January 2024',
+                'description' => 'Call for Papers Announcement',
             ],
             [
-                'date' => '2024-09-01',
-                'description' => 'Call for',
+                'date' => '1 March 2024',
+                'description' => 'Paper Submission Period Opens',
             ],
             [
-                'date' => '2024-09-01',
-                'description' => 'Call for',
+                'date' => '31 July 2024',
+                'description' => 'Submission Deadline',
             ],
             [
-                'date' => '2024-09-15',
-                'description' => 'Call for',
+                'date' => '30 April 2024',
+                'description' => 'Notification of Acceptance Starts',
             ],
             [
-                'date' => '2024-09-15',
-                'description' => 'Call for',
+                'date' => '15 July 2024',
+                'description' => 'Notification of Acceptance Ends',
             ],
             [
-                'date' => '2024-10-01',
-                'description' => 'Call for',
+                'date' => '1 July 2024',
+                'description' => 'Regular Registration Period Starts',
+            ],
+            [
+                'date' => '31 August 2024',
+                'description' => 'Regular Registration Period Ends and Registration Deadline',
+            ],
+            [
+                'date' => '1 July 2024',
+                'description' => 'Registration Opens',
+            ],
+            [
+                'date' => '7 September 2024',
+                'description' => 'Program Announcement',
+            ],
+            [
+                'date' => '18 September 2024',
+                'description' => 'Conference Starts',
+            ],
+            [
+                'date' => '19 September 2024',
+                'description' => 'Conference Ends',
+            ],
+            [
+                'date' => 'TBA',
+                'description' => 'Publication of Proceedings',
+            ],
+            [
+                'date' => '24 September 2024',
+                'description' => 'Post-Conference Materials Available Online',
             ],
         ];
+        
         ?>
 
         <div class="timeline-main">
