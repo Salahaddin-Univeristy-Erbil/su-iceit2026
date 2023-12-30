@@ -12,30 +12,32 @@
     <link rel="stylesheet" href="css\cards.css">
     <link rel="stylesheet" href="css/footer.css">
 
+
 </head>
 
 <body>
+    <img src="./img/logo.jpg" class="main-logo"></img>
 
-    <header class="row header ">
-        <video src="./img/erbil.mp4" class="" autoplay muted loop width="100%" height="100%"></video>
+    <header class="row header">
+        <img src="./img/erbil.jpg" class="header-image"></img>
         <div class="header-overlay">
             <h1>
-                <div>
-                    The 3rd International Conference on Engineering and Innovative Technology (ICEIT 2024)
-                    <p class="date">September 18-19, 2024</p>
-                    Erbil, Kurdistan, Iraq
+                <div id="conferenceInfo">
+                    <div id="mainText" class="typing">&nbsp;</div>
+                    <p id="dateText" class="date typing">&nbsp;</p>
+                    <div id="locationText" class="typing">&nbsp;</div>
                 </div>
             </h1>
         </div>
         <a class="overlay-button" href="#countdown">
-            <span class="arrow">&#x25BC;</span> 
+            <span class="arrow">&#x25BC;</span>
         </a>
     </header>
 
     <article class="row content">
         <section>
             <div class="wrapper">
-                <div id="countdown" >
+                <div id="countdown">
                     <div class="cd-box timeRefDays">
                         <p class="numbers days">00</p>
                         <p class="strings">Days</p>
@@ -69,44 +71,37 @@
             <?php
             $cards = [
                 [
-                    'title' => 'About',
-                    'content' => ' About International Conference of Engineering and Innovative Technology',
+                    'title' => 'About ICEIT2024 ',
                     'img' => 'img/about.png',
                     'link' => 'about.php',
                 ],
                 [
-                    'title' => 'Organization Committees',
-                    'content' => 'Organizing Committee',
+                    'title' => 'Organizing Committee',
                     'img' => 'img/Organization-Committees.png',
                     'link' => 'committee.php',
                 ],               
                 [
                     'title' => 'Call for Papers',
-                    'content' => 'Request from a professional journal, conference to submit your research',
                     'img' => 'img/Call-for-Paper.png',
                     'link' => 'call.php',
                 ],
                 [
                     'title' => 'Information for Authors',
-                    'content' => 'Please find information for authors here',
                     'img' => 'img/authors.png',
                     'link' => 'authors.php',
                 ],
                 [
                     'title' => 'Plenary Speakers',
-                    'content' => 'Keynote Speakers and Scientific Sessions',
                     'img' => 'img/Plenary-Speakers.png',
                     'link' => 'speakers.php',
                 ],
                 [
                     'title' => 'Paper Submission',
-                    'content' => 'Submissions are open closing date:6 December, 2023',
                     'img' => 'img/Paper-Submission.png',
                     'link' => 'submission.php',
                 ],
                 [
                     'title' => 'Registration',
-                    'content' => 'Information about the registration will be published at a later date',
                     'img' => 'img/Registration.png',
                     'link' => 'registration.php',
                 ],
@@ -121,9 +116,6 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
-                    <div class="card-content">
-                        <?php echo htmlspecialchars($card['content']); ?>
-                    </div>
                     <a href="<?php echo htmlspecialchars($card['link']); ?>" class="card-detail-link">
                         <div class="card-detail">More Details</div>
                         <div class="circle">&gt;</div>
@@ -140,66 +132,6 @@
     </article>
 
 
-    <article class="row content" style="margin: 0px; padding: 0px;">
-
-        <div class="container">
-            <div class="first-column">
-                <h2>Information for Authors</h2>
-                <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and technology in
-                    the Kurdistan region of Iraq. Hosted and organized biennially by the College of Engineering at
-                    Salahaddin University-Erbil, the conference has gained prominence through the publication of papers
-                    from ICEIT2019 and ICEIT2026 in the Zanco journal for pure and applied Science @SUE. However, for
-                    ICEIT2024, the publication committee is currently engaged in discussions with esteemed publishers,
-                    including Springer, AIJR, IoP, and The Web of Conferences. Each engineering sector's proceedings
-                    will find a suitable publisher. </p>
-                <br>
-                <h2>Conference Overview</h2>
-                <div class="conference-overview">
-
-                    <ul>
-                        <li><strong>Name:</strong> International Conference on Engineering and Technology (ICEIT)</li>
-                        <li><strong>Year:</strong> 2024</li>
-                        <li><strong>Hosted By:</strong> College of Engineering at Salahaddin University-Erbil</li>
-                        <li><strong>Location:</strong> Erbil, Kurdistan Region of Iraq</li>
-                        <li><strong>Proceeding Publishers:</strong> Springer, AIJR, IoP, The Web of Conferences</li>
-                    </ul>
-                </div>
-
-                <h2>Terms and Conditions</h2>
-                <div class="conference-overview">
-                    <ul>
-                        <li><strong>Language:</strong> English</li>
-                        <li><strong>Article Length:</strong> 4-8 pages inclusive</li>
-                        <li><strong>Number of Papers:</strong> Each author can present a maximum of two papers.
-                            Additional papers require registration of accompanying co-author(s).</li>
-                        <li><strong>Registration:</strong> Authors must register for the conference and present their
-                            work.</li>
-                        <li><strong>No Show Policy:</strong> Papers will be published only if at least one author is
-                            registered and the paper is presented. Non-presented papers may be excluded from online
-                            distribution post-conference.</li>
-                        <li><strong>Authorization to Publish:</strong> Authors must ensure that their material is
-                            available for general dissemination. Signed ICEIT2024 Copyright Forms are required for all
-                            accepted papers.</li>
-                    </ul>
-                </div>
-
-
-                <br>
-                <a href="submission-portal.php" class="button-link">Submission Portal</a>
-
-
-            </div>
-
-            <div class="second-column"><!--
-                <img src="img/call-for-paper-page.png" alt="call-for-paper-page" width="100%" class="rounded-image">
-             -->
-            </div>
-
-        </div>
-
-
-
-    </article>
 
     <article class="row content" style="margin: 0px; padding: 0px;">
         <?php
@@ -227,48 +159,37 @@
             ],
             [
                 'date' => '1 July 2024',
-                'description' => 'Regular Registration Period Starts',
+                'description' => 'Registration Opens',
             ],
             [
                 'date' => '31 August 2024',
-                'description' => 'Regular Registration Period Ends and Registration Deadline',
-            ],
-            [
-                'date' => '1 July 2024',
-                'description' => 'Registration Opens',
+                'description' => 'Registration Deadline',
             ],
             [
                 'date' => '7 September 2024',
                 'description' => 'Program Announcement',
             ],
             [
-                'date' => '18 September 2024',
+                'date' => '18-19 September 2024',
                 'description' => 'Conference Starts',
             ],
             [
-                'date' => '19 September 2024',
-                'description' => 'Conference Ends',
-            ],
-            [
-                'date' => 'TBA',
+                'date' => '15 October 2024',
                 'description' => 'Publication of Proceedings',
-            ],
-            [
-                'date' => '24 September 2024',
-                'description' => 'Post-Conference Materials Available Online',
             ],
         ];
         
         ?>
 
         <div class="timeline-main">
-            <h1 id="important-dates">Important Dates</h1>
+            <h1 id="important-dates"><span class="highlight">Important Dates</span></h1>
             <div class="timeline">
                 <?php foreach ($importantDates as $date): ?>
                 <div class="container-timeline">
                     <div class="content">
-                        <h2><?php echo htmlspecialchars($date['date']); ?></h2>
-                        <p><?php echo htmlspecialchars($date['description']); ?></p>
+                        <h2><span class="highlight"><span class="only-date"><?php echo htmlspecialchars($date['date']); ?></span>
+                               &nbsp; 
+                                <?php echo htmlspecialchars($date['description']); ?></span></h2>
                     </div>
                 </div>
                 <?php endforeach; ?>
@@ -282,22 +203,16 @@
         <?php
         $sponsors = [
             [
-                'href' => 'https://gov.krd',
-                'target' => 'krg',
-                'img_src' => 'img/krg-logo.png',
-                'alt' => 'KRG Logo',
+                'href' => 'https://gov.krd/mohe-en/',
+                'target' => 'mohe',
+                'img_src' => 'img/mohe.png',
+                'alt' => 'MOHE Logo',
             ],
             [
                 'href' => 'https://www.sue.edu.krd/',
                 'target' => 'sue',
                 'img_src' => 'img/sue-logo.png',
                 'alt' => 'SUE Logo',
-            ],
-            [
-                'href' => 'https://gov.krd/mohe-en/',
-                'target' => 'mohe',
-                'img_src' => 'img/mohe.png',
-                'alt' => 'MOHE Logo',
             ],
         ];
         ?>
@@ -321,7 +236,32 @@
 
     <?php include 'components/footer.php'; ?>
     <script src="js/countdown.js"></script>
+    <script>
+        const mainText = `The 3rd International Conference on Engineering and Innovative Technology (ICEIT 2024)`;
+        const dateText = `September 18-19, 2024`;
+        const locationText = `Erbil, Kurdistan, Iraq`;
 
+        function typeWriter(text, elementId, callback) {
+            let index = 0;
+
+            function addCharacter() {
+                if (index < text.length) {
+                    document.getElementById(elementId).innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(addCharacter, 50); // Adjust typing speed here
+                } else if (callback) {
+                    callback();
+                }
+            }
+            addCharacter();
+        }
+
+        typeWriter(mainText, 'mainText', () => {
+            typeWriter(dateText, 'dateText', () => {
+                typeWriter(locationText, 'locationText', null);
+            });
+        });
+    </script>
 </body>
 
 </html>

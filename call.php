@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICEIT2024-Call for Papers</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -64,11 +65,12 @@
 
 <body>
     <?php include 'components/page-header.php'; ?>
+    <?php include 'components/page-card.php'; ?>
+
     <div class="container">
         <div class="row">
 
             <div class="main-container">
-                <?php include 'components/page-card.php'; ?>
                 <div id="main" class="main-column">
                     <div class="header">
                         Call for paper

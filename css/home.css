@@ -34,32 +34,29 @@
     color: #fff;
     overflow: hidden;
   }
-
-  .header-video {
-    position: absolute;
-    top: 0;
-    left: 0;
+.main-logo{
+  width: 30%;
+}
+  .header-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
   }
 
   .header-overlay {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    bottom: 10%;
+    right: 0px;
     z-index: 1;
-    text-align: right;
-    max-width: 550px;
+    text-align: center;
+    width: 100%;
   }
 
   .header-overlay h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
 
   @media (max-width: 768px) {
@@ -77,9 +74,8 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
 
-    .header-video {
-      height: auto;
-      width: auto;
+    .header-image {
+
       min-width: 100%;
       min-height: 100%;
     }
@@ -185,13 +181,21 @@
     /*------------timeline-----------*/
 
     .timeline-main {
-        background-color: #AD5B5C;
+        background-color: #A51C30;
         font-family: Helvetica, sans-serif;
         padding-top: 40px;
       }
+      .highlight {
+        background-color: #f7ee00;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+      }
   
       .timeline-main #important-dates {
-        color: #FFF;
         text-align: center;
         line-height: 3rem;
         font-size: 2.5rem;
@@ -207,32 +211,24 @@
   
       .timeline-main .container-timeline {
         margin: 0;
-        padding: 0px 10px 10px 20px;
+        padding: 0px 10px 0px 20px;
         position: relative;
         background-color: inherit;
         width: 100%;
       }
-  
-      .timeline-main .container-timeline::after {
-        content: '';
-        position: absolute;
-        width: 13px;
-        height: 13px;
-        right: -8px;
-        background-color: #FFFFFF;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-        left: -16px;
-      }
-  
+      
   
       .timeline-main .content {
-        padding: 20px 30px;
-        background-color: white;
+        padding: 10px 30px;
         position: relative;
         border-radius: 6px;
         font-size: 1.2rem;
+      }
+
+      .only-date{
+        
+        display: inline-block;
+        min-width: 300px;
       }
   
       .timeline-main .content p {
@@ -337,7 +333,7 @@
 
 .overlay-button {
   position: absolute;
-  bottom: 30%;
+  bottom: -3%;
   /* Adjust as needed */
   left: 50%;
   transform: translateX(-50%);
@@ -346,7 +342,7 @@
   height: 70px;
   /* Size of the button */
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   /* Half transparent white */
   border: none;
   cursor: pointer;

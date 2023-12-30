@@ -1,3 +1,6 @@
+
+<img src="./img/logo.jpg" class="main-logo" ></img>
+
 <header>
     <img src="img/erbil.jpg" alt="Erbil" width="100%">
 </header>

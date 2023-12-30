@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICEIT2024-Committee</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -66,21 +67,18 @@
         .committee-members li:last-child {
             border-bottom: none;
         }
-
-        .committee-members strong {
-            color: #800000;
-        }
     </style>
 </head>
 
 <body>
     <?php include 'components/page-header.php'; ?>
+    <?php include 'components/page-card.php'; ?>
+
     <div class="container">
 
         <div class="row">
 
             <div class="main-container">
-                <?php include 'components/page-card.php'; ?>
                 <div id="main" class="main-column">
                     <div class="header">
                         Organizing Committee
@@ -102,33 +100,23 @@
                         <div class="committee-section">
                             <h2>Organizing Committee Board</h2>
                             <div class="committee-members">
-                                <div class="committee-members">
-                                    <ul>
-                                        <li><strong>Asst. Prof. Dr. Kamaran Younis</strong> - Honorary Chair, President
-                                            of Salahaddin University-Erbil</li>
-                                        <li><strong>Prof. Dr. Shuokr Qarani Aziz</strong> - Honorary Chair, Dean of
-                                            Engineering College</li>
-                                        <li><strong>Asst. Prof. Dr. Shareef Maulod</strong> - Honorary Chair, Vice
-                                            President of Salahaddin University-Erbil, Academic</li>
-                                        <li><strong>Prof. Ibrahim Ismael Hamarash</strong> - Conference General Chair
-                                        </li>
-                                        <li><strong>Prof. Dr. Omer Qarani Aziz</strong> - Scientific Committee Chair
-                                        </li>
-                                        <li><strong>Prof. Dr. Samah Abdulkareem</strong> - Publishing Committee Chair
-                                        </li>
-                                        <li><strong>Asst. Prof. Dr. Fars Ali Mustafa</strong> - Organizing Committee
-                                            Member</li>
-                                        <li><strong>Asst. Prof. Rizgar Bakir</strong> - Logistics Committee Chair</li>
-                                        <li><strong>Asst. Prof. Dr. Salahaddin Yaseen Baper</strong> - Workshops and
-                                            Exhibition Committee Chair</li>
-                                        <li><strong>Asst. Prof. Dr. Dleen Muhammed Salih</strong> - Registration &
-                                            Social Activity Chair</li>
-                                        <li><strong>Dr. Blind Ibrahim Dezaye</strong> - Organizing Committee Member</li>
-                                        <li><strong>Dr. Polla Abdulhamid Fattah</strong> - IT and Social Media Committee
-                                            Chair</li>
-                                        <li><strong>Dr. Danar Hasan Talabani</strong> - Finance Committee Chair</li>
-                                    </ul>
-                                </div>
+                                <ul>
+                                    <li><strong>Prof. Dr. Ibrahim Ismael Hamarash</strong> - Conference General Chair
+                                    </li>
+                                    <li><strong>Prof. Dr. Omer Qarani Aziz</strong> - Scientific Committee Chair
+                                    </li>
+                                    <li><strong>Prof. Dr. Samah Abdulkareem</strong> - Publishing Committee Chair
+                                    </li>
+                                    <li><strong>Asst. Prof. Dr. Fars Ali Mustafa</strong> - Organizing Committee
+                                        Member</li>
+                                    <li><strong>Asst. Prof. Rizgar Bakir</strong> - Logistics Committee Chair</li>
+                                    <li><strong>Asst. Prof. Dr. Salahaddin Yaseen Baper</strong> - Workshops and
+                                        Exhibition Committee Chair</li>
+                                    <li><strong>Dr. Blind Ibrahim Dezaye</strong> - Organizing Committee Member</li>
+                                    <li><strong>Dr. Polla Abdulhamid Fattah</strong> - IT and Social Media Committee
+                                        Chair</li>
+                                    <li><strong>Dr. Danar Hasan Talabani</strong> - Finance Committee Chair</li>
+                                </ul>
 
                             </div>
                         </div>
@@ -136,46 +124,47 @@
                             <h2>Scientific Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Prof. Dr. Omer Qarani Aziz</strong> (Chair)</li>
+                                    <li><strong>Prof. Dr. Omer Qarani Aziz (Chair)</strong></li>
                                     <li><strong>Prof. Dr. Shawnm Rasheed</strong></li>
-                                    <li><strong>Asst. Prof. Dr Dlshad Kakasoor</strong></li>
                                     <li><strong>Prof. Dr. Safeen Yaseen Izzaden</strong></li>
-                                    <li><strong>Asst. Prof. Dr Ahmed Hedayat</strong></li>
                                     <li><strong>Prof. Dr. Muhammed Abdulbaki</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Aso Faez</strong></li>
                                     <li><strong>Prof. Dr. Ali Ramazn</strong></li>
-                                    <li><strong>Asst. Prof. Dr Faerosha Salih Muhammed</strong></li>
                                     <li><strong>Prof. Dr. Dyari raoof Sulaiman</strong></li>
-                                    <li><strong>Asst. Prof. Dr Jalil Aziz Hamadameen</strong></li>
                                     <li><strong>Prof. Dr Sinan Abdulkhalq</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Hilmi Fathil Ameen</strong></li>
                                     <li><strong>Prof. Dr. Najad Ahmed Uussain</strong></li>
-                                    <li><strong>Asst. Prof. Muhammed Tahir</strong></li>
                                     <li><strong>Prof. Dr. Ramzi Rufaeel</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Thuraya Mahmood</strong></li>
                                     <li><strong>Prof. Dr. Hussain Ali Hussain</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Dlshad Khidr Hamadameen</strong></li>
                                     <li><strong>Prof. Dr. Nawzad Abduljabbar</strong></li>
-                                    <li><strong>Asst. Prof Dr. Abbas Muhammed Ali</strong></li>
                                     <li><strong>Prof. Dr. Yousf ismael mawlood</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Jihan Muhammed Shekh</strong></li>
                                     <li><strong>Prof. Dr. Aed gab Maree</strong></li>
-                                    <li><strong>Asst. Prof. Dr Moayad Patrus</strong></li>
                                     <li><strong>Prof. Dr. Yousif Mawlood</strong></li>
-                                    <li><strong>Asst. Prof. Khalil Karem Hamadameen</strong></li>
                                     <li><strong>Asst. Prof. Dr. Fars Ali Mustafa</strong></li>
-                                    <li><strong>Asst. Prof. Ramadhan gardi</strong></li>
                                     <li><strong>Asst. Prof. Dr. Rzgar Bakir</strong></li>
+                                    <li><strong>Asst. Prof. Hamid Trki Haykal</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Kayhan Zrar Gafoor</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Ameen Salih Muhammed</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Dler Salih</strong></li>
+                                    <li><strong>Asst. Prof. Dr Dlshad Kakasoor</strong></li>
+                                    <li><strong>Asst. Prof. Dr Ahmed Hedayat</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Aso Faez</strong></li>
+                                    <li><strong>Asst. Prof. Dr Faerosha Salih Muhammed</strong></li>
+                                    <li><strong>Asst. Prof. Dr Jalil Aziz Hamadameen</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Hilmi Fathil Ameen</strong></li>
+                                    <li><strong>Asst. Prof. Muhammed Tahir</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Thuraya Mahmood</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Dlshad Khidr Hamadameen</strong></li>
+                                    <li><strong>Asst. Prof Dr. Abbas Muhammed Ali</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Jihan Muhammed Shekh</strong></li>
+                                    <li><strong>Asst. Prof. Dr Moayad Patrus</strong></li>
+                                    <li><strong>Asst. Prof. Khalil Karem Hamadameen</strong></li>
+                                    <li><strong>Asst. Prof. Ramadhan gardi</strong></li>
                                     <li><strong>Asst. Prof. Dr. Gulnar Muhammed Hadi</strong></li>
                                     <li><strong>Asst. Prof. Dr. Jalal Jamal</strong></li>
-                                    <li><strong>Asst. Prof. Hamid Trki Haykal</strong></li>
                                     <li><strong>Asst. Prof. Dr. Abdulla Abdulwahid</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Kayhan Zrar Gafoor</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Jawdat Ibrahim</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Ameen Salih Muhammed</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Anwar</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Dler Salih</strong></li>
                                 </ul>
+
 
                             </div>
                         </div>
@@ -184,20 +173,21 @@
                             <h2>Logistics Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Dr. Rizgar Bakr</strong> (Chair)</li>
-                                    <li><strong>Dr. Jamal Abdulla Hassan</strong></li>
+                                    <li><strong>Dr. Rizgar Bakr (Chair)</strong></li>
                                     <li><strong>Dr Hawro Khalil Shakr</strong></li>
-                                    <li><strong>Sakar Jawhar Sharef</strong></li>
                                     <li><strong>Dr. Sirwan Khidr Mala</strong></li>
-                                    <li><strong>Awat Sadi Ali</strong></li>
                                     <li><strong>Dr. Hawar Himdad Saktani</strong></li>
-                                    <li><strong>Rojgar Qarani Ismael</strong></li>
                                     <li><strong>Hersh Mahmood</strong></li>
-                                    <li><strong>Hawkar Hashim</strong></li>
                                     <li><strong>Hardee Abdulla</strong></li>
-                                    <li><strong>Zamdar Azad</strong></li>
                                     <li><strong>Muhammed Syamand</strong></li>
+                                    <li><strong>Dr. Jamal Abdulla Hassan</strong></li>
+                                    <li><strong>Sakar Jawhar Sharef</strong></li>
+                                    <li><strong>Awat Sadi Ali</strong></li>
+                                    <li><strong>Rojgar Qarani Ismael</strong></li>
+                                    <li><strong>Hawkar Hashim</strong></li>
+                                    <li><strong>Zamdar Azad</strong></li>
                                 </ul>
+
 
                             </div>
                         </div>
@@ -215,12 +205,13 @@
                             <h2>Publication Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Prof. Dr. Samah Abdulkarem Mustafa</strong> (Chair)</li>
-                                    <li><strong>Asst. Prof. Dr. Qahar Muhammed</strong></li>
+                                    <li><strong>Prof. Dr. Samah Abdulkarem Mustafa (Chair)</strong></li>
                                     <li><strong>Asst. Prof. Dr. Fars Ali Mustafa</strong></li>
-                                    <li><strong>Dr. Mustafa Atrushi</strong></li>
                                     <li><strong>Asst. Prof. Dr. Fatdhil Tawfiq Awal</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Qahar Muhammed</strong></li>
+                                    <li><strong>Dr. Mustafa Atrushi</strong></li>
                                 </ul>
+
 
                             </div>
                         </div>
@@ -229,15 +220,18 @@
                             <h2>IT and Social Media</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Dr Polla Abdulhamid Fattah (Chair)</strong></li>
+                                    <li><strong>Dr Pola Abdulhameed (Chair)</strong></li>
                                     <li><strong>Dr. Mardeen Anwar</strong></li>
                                     <li><strong>Dr. Muhammed Ismael Omer</strong></li>
-                                    <li><strong>Miki Zaki Bya</strong></li>
-                                    <li><strong>Imad Hasan</strong></li>
-                                    <li><strong>Hawkar Hashim</strong></li>
                                     <li><strong>Silva Matti</strong></li>
-                                    <li><strong>Muhammed Syamand</strong></li>
+                                    <li><strong>Roshna Abdulqadir</strong></li>
+                                    <li><strong>Avan Taha Salih</strong></li>
+                                    <li><strong>Hersh Mahmood</strong></li>
+                                    <li><strong>Fareeda Ayub</strong></li>
+                                    <li><strong>Hardee Abdulla</strong></li>
+                                    <li><strong>Prusha</strong></li>
                                 </ul>
+
 
                             </div>
                         </div>

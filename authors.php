@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICEIT2024-About</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
     <style>
-
-
         .content {
             font-family: Arial, sans-serif;
             line-height: 2;
@@ -40,72 +39,200 @@
             .container {
                 width: 100%;
             }
+
             .welcome-message {
-            padding: 10px;
-            margin: 10px 0;
+                padding: 10px;
+                margin: 10px 0;
 
+            }
+
+            .content {
+
+                margin: 0px !important;
+                padding: 0;
+            }
         }
-        .content {
-
-            margin: 0px !important;
+    </style>
+    <style>
+        .dates-list {
+            list-style-type: none;
             padding: 0;
+            max-width: 600px;
+            /* Adjust as needed */
         }
+
+        .dates-list li {
+            display: flex;
+            justify-content: flex-start;
+            /* Aligns content to the left */
+            margin-bottom: 5px;
+        }
+
+        .description {
+            padding-right: 20px;
+            /* Spacing between description and date */
+            min-width: 300px;
+        }
+
+        .dates-list li:nth-child(odd) {
+            background-color: #f7f7f7;
+            /* Slightly gray background for odd items */
+        }
+
+        .date {
+            white-space: nowrap;
+            /* Keeps the date in one line */
+            font-weight: bold;
+        }
+
+        /*small screen */
+        @media (max-width: 768px) {
+            .description {
+                min-width: 230px;
+            }
         }
     </style>
 </head>
 
 <body>
     <?php include 'components/page-header.php'; ?>
+    <?php include 'components/page-card.php'; ?>
+
     <div class="container">
 
         <div class="row">
 
             <div class="main-container">
-                
-                <?php include 'components/page-card.php'; ?>
+
                 <div id="main" class="main-column">
                     <div class="content">
-                    <div class="header">
-            About ICEIT2024
-        </div>
+                        <div class="header">
+                            About ICEIT2024
+                        </div>
 
                         <section class="welcome-message">
-                            <p>A welcome message from the organizing committee of ICEIT 2024.</p>
-                            <p>We are excited to announce the 3rd edition of the International Conference on Engineering
-                                and Innovative Technology (ICEIT), organized by the College of Engineering at Salahaddin
-                                University-Erbil. This prestigious event is scheduled to be held on-site on September
-                                18-19, 2024, marking our return to in-person gatherings post the challenges posed by the
-                                pandemic.</p>
-                            <p>ICEIT has solidified its position as the premier general engineering and technology
-                                conference in the Kurdistan region of Iraq. Since its inception in 2016, with the
-                                participation of 156 researchers from 14 countries, the conference has played a pivotal
-                                role in facilitating face-to-face meetings and networking opportunities among
-                                individuals in academia and industry across diverse engineering fields.</p>
-                            <p>Aside from engaging discussions and presentations, ICEIT 2024 is set to feature an
-                                enlightening engineering exhibition and an interactive workshop. The conference is
-                                designed to encourage collaboration and knowledge exchange, contributing to the
-                                advancement of engineering and technology globally.</p>
-                            <p>Erbil, with its UNESCO-protected sites, holds a unique historical significance. As
-                                recognized by NASA, it stands as the oldest continually inhabited city globally, with
-                                the Citadel, inhabited for over 8000 years, serving as a testament to its rich history.
-                                The city draws visitors from around the world year-round, making ICEIT 2024 an
-                                exceptional event worth attending.</p>
-                            <p>Beyond the conference, Erbil offers a vibrant atmosphere with its bustling bazaars,
-                                distinctive cuisine, and a socially friendly community, positioning it as one of the
-                                most attractive destinations in the Middle East.</p>
-                            <p>We invite you to submit your papers for consideration in ICEIT 2024. Share your research
-                                and contribute to the academic excellence and cultural richness of this conference. We
-                                look forward to extending a warm welcome to you in Erbil this September.</p>
+                            <h2>Information for Authors</h2>
+                            <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and
+                                technology in
+                                the Kurdistan region of Iraq. Hosted and organized biennially by the College of
+                                Engineering at
+                                Salahaddin University-Erbil, the conference has gained prominence through the
+                                publication of papers
+                                from ICEIT2019 and ICEIT2026 in the Zanco journal for pure and applied Science @SUE.
+                                However, for
+                                ICEIT2024, the publication committee is currently engaged in discussions with esteemed
+                                publishers,
+                                including Springer, AIJR, IoP, and The Web of Conferences. Each engineering sector's
+                                proceedings
+                                will find a suitable publisher. </p>
+                            <br>
+                        </section>
+                        <section class="welcome-message">
+                            <h2>Conference Overview</h2>
+                            <div class="conference-overview">
 
-                            <p class="signed">Yours sincerely,</p>
-                            <p class="signed">Professor Ibrahim Hamarash, PhD.</p>
-                            <p class="signed">Conference General Chair</p>
-                            <p class="signed">ICEIT 2024 Organizing Committee</p>
+                                <ul>
+                                    <li><strong>Name:</strong> International Conference on Engineering and Technology
+                                        (ICEIT)</li>
+                                    <li><strong>Year:</strong> 2024</li>
+                                    <li><strong>Hosted By:</strong> College of Engineering at Salahaddin
+                                        University-Erbil</li>
+                                    <li><strong>Location:</strong> Erbil, Kurdistan Region of Iraq</li>
+                                    <li><strong>Proceeding Publishers:</strong> Springer, AIJR, IoP, The Web of
+                                        Conferences</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="welcome-message">
+                            <h2>Terms and Conditions</h2>
+                            <div class="conference-overview">
+                                <ul>
+                                    <li><strong>Language:</strong> English</li>
+                                    <li><strong>Article Length:</strong> 4-8 pages inclusive</li>
+                                    <li><strong>Number of Papers:</strong> Each author can present a maximum of two
+                                        papers.
+                                        Additional papers require registration of accompanying co-author(s).</li>
+                                    <li><strong>Registration:</strong> Authors must register for the conference and
+                                        present their
+                                        work.</li>
+                                    <li><strong>No Show Policy:</strong> Papers will be published only if at least one
+                                        author is
+                                        registered and the paper is presented. Non-presented papers may be excluded from
+                                        online
+                                        distribution post-conference.</li>
+                                    <li><strong>Authorization to Publish:</strong> Authors must ensure that their
+                                        material is
+                                        available for general dissemination. Signed ICEIT2024 Copyright Forms are
+                                        required for all
+                                        accepted papers.</li>
+                                </ul>
+                            </div>
                         </section>
 
+                        <section class="welcome-message">
+                            <h2>Timeline</h2>
+                            <ul class="dates-list">
+                                <li><span class="description">Call for Papers Announcement:</span> <span
+                                        class="date"><strong>1 January 2024</strong></span></li>
+                                <li><span class="description">Paper Submission Period Opens:</span> <span
+                                        class="date"><strong>1 March 2024</strong></span></li>
+                                <li><span class="description">Submission Deadline:</span> <span
+                                        class="date"><strong>31 July 2024</strong></span></li>
+                                <li><span class="description">Notification of Acceptance Starts:</span> <span
+                                        class="date"><strong>30 April 2024</strong></span></li>
+                                <li><span class="description">Notification of Acceptance Ends:</span> <span
+                                        class="date"><strong>15 July 2024</strong></span></li>
+                                <li><span class="description">Registration Opens:</span> <span class="date"><strong>1
+                                            July 2024</strong></span></li>
+                                <li><span class="description">Registration Deadline:</span> <span
+                                        class="date"><strong>31 August 2024</strong></span></li>
+                                <li><span class="description">Program Announcement:</span> <span
+                                        class="date"><strong>7 September 2024</strong></span></li>
+                                <li><span class="description">Conference Starts:</span> <span class="date"><strong>18
+                                            September 2024</strong></span></li>
+                                <li><span class="description">Conference Ends:</span> <span class="date"><strong>19
+                                            September 2024</strong></span></li>
+                                <li><span class="description">Publication of Proceedings:</span> <span
+                                        class="date"><strong>15 October 2024</strong></span></li>
+                            </ul>
 
 
+                        </section>
+                        <section class="welcome-message">
+                            <h2>Paper Submission</h2>
+                            <ul>
+                                <li><strong>Originality:</strong> We emphasize the importance of originality in
+                                    submissions.
+                                    Papers must be unique, not previously published, or currently under consideration
+                                    for
+                                    publication elsewhere. This ensures the freshness and novelty of the research
+                                    presented
+                                    at our conference.
 
+                                <li><strong>Review Process:</strong> Our conference upholds the highest standards of
+                                    academic
+                                    integrity. We employ a double-blind peer review process, complemented by thorough
+                                    plagiarism and AI checks. This rigorous procedure ensures the credibility and
+                                    quality of
+                                    every paper accepted and presented.
+
+                                <li><strong>Templates:</strong> For consistency and ease of formatting, authors are
+                                    required
+                                    to use our provided MS-Word and Latex templates. These templates are designed to
+                                    meet
+                                    the formatting guidelines of the conference and facilitate a uniform look for all
+                                    proceedings.
+
+                                <li><strong>Submission Process:</strong> Upon finalizing their papers, authors are
+                                    required
+                                    to convert their documents into PDF format. The final versions should then be
+                                    submitted
+                                    through our dedicated online submission system. This process ensures a streamlined
+                                    and
+                                    efficient handling of all submissions.
+                            </ul>
+
+                        </section>
 
 
                     </div>
