@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICEIT2024-Submission</title>
+    <title>ICEIT2024-Speakers</title>
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -18,22 +18,21 @@
         </div>
         <div class="row">
 
-        <div class="main-container">
-    <?php include 'components/page-card.php'; ?>
-    <div id="main" class="main-column">
-        <div class="content">
-            Main
+            <div class="main-container">
+                <?php include 'components/page-card.php'; ?>
+                <div id="main" class="main-column">
+                    <div class="content">
+                        Main
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <?php include 'components/footer.php'; ?>
+
+            </div>
         </div>
-
-    </div>
-</div>
-
-        <div class="row">
-
-    <?php include 'components/footer.php'; ?>
-
-        </div>
-    </div>
 </body>
-
 </html>

@@ -18,21 +18,21 @@
         </div>
         <div class="row">
 
-        <div class="main-container">
-    <?php include 'components/page-card.php'; ?>
-    <div id="main" class="main-column">
-        <div class="content">
-            Main
+            <div class="main-container">
+                <?php include 'components/page-card.php'; ?>
+                <div id="main" class="main-column">
+                    <div class="content">
+                        Main
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <?php include 'components/footer.php'; ?>
+
+            </div>
         </div>
-
-    </div>
-</div>
-
-        <div class="row">
-
-    <?php include 'components/footer.php'; ?>
-
-        </div>
-    </div>
 </body>
 </html>
