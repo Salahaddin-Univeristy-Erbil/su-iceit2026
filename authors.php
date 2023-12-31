@@ -55,36 +55,34 @@
     </style>
     <style>
         .dates-list {
-            list-style-type: none;
-            padding: 0;
+            padding: 0px 0px 0px 10px;
             max-width: 600px;
-            /* Adjust as needed */
         }
 
         .dates-list li {
-            display: flex;
-            justify-content: flex-start;
-            /* Aligns content to the left */
+            list-style: none;
             margin-bottom: 5px;
+            padding-left: 25px;
         }
 
         .description {
+            display: inline-block;
             padding-right: 20px;
-            /* Spacing between description and date */
             min-width: 300px;
         }
 
         .dates-list li:nth-child(odd) {
             background-color: #f7f7f7;
-            /* Slightly gray background for odd items */
         }
 
         .date {
             white-space: nowrap;
-            /* Keeps the date in one line */
             font-weight: bold;
         }
-
+        .bull{
+            font-size: 28px;
+            line-height: 1;
+        }
         /*small screen */
         @media (max-width: 768px) {
             .description {
@@ -172,28 +170,28 @@
                         <section class="welcome-message">
                             <h2>Timeline</h2>
                             <ul class="dates-list">
-                                <li><span class="description">Call for Papers Announcement:</span> <span
-                                        class="date"><strong>1 January 2024</strong></span></li>
-                                <li><span class="description">Paper Submission Period Opens:</span> <span
-                                        class="date"><strong>1 March 2024</strong></span></li>
-                                <li><span class="description">Submission Deadline:</span> <span
-                                        class="date"><strong>31 July 2024</strong></span></li>
-                                <li><span class="description">Notification of Acceptance Starts:</span> <span
-                                        class="date"><strong>30 April 2024</strong></span></li>
-                                <li><span class="description">Notification of Acceptance Ends:</span> <span
-                                        class="date"><strong>15 July 2024</strong></span></li>
-                                <li><span class="description">Registration Opens:</span> <span class="date"><strong>1
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Call for Papers Announcement</span> <span
+                                        class="date"><strong>1 Jan 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Paper Submission Period Opens</span> <span
+                                        class="date"><strong>1 Mar 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Submission Deadline</span> <span
+                                        class="date"><strong>31 Jul 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Starts</span> <span
+                                        class="date"><strong>30 Apr 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Ends</span> <span
+                                        class="date"><strong>15 Jul 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Opens</span> <span class="date"><strong>1
                                             July 2024</strong></span></li>
-                                <li><span class="description">Registration Deadline:</span> <span
-                                        class="date"><strong>31 August 2024</strong></span></li>
-                                <li><span class="description">Program Announcement:</span> <span
-                                        class="date"><strong>7 September 2024</strong></span></li>
-                                <li><span class="description">Conference Starts:</span> <span class="date"><strong>18
-                                            September 2024</strong></span></li>
-                                <li><span class="description">Conference Ends:</span> <span class="date"><strong>19
-                                            September 2024</strong></span></li>
-                                <li><span class="description">Publication of Proceedings:</span> <span
-                                        class="date"><strong>15 October 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Deadline</span> <span
+                                        class="date"><strong>31 Aug 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Program Announcement</span> <span
+                                        class="date"><strong>7 Sept 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Starts</span> <span class="date"><strong>18
+                                            Sep 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Ends</span> <span class="date"><strong>19
+                                            Sep 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Publication of Proceedings</span> <span
+                                        class="date"><strong>15 Oct 2024</strong></span></li>
                             </ul>
 
 
