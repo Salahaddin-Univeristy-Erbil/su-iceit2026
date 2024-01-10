@@ -86,14 +86,15 @@
                                 of Iraq, held biennially. Covering a broad spectrum, the conference addresses topics
                                 across various engineering and science disciplines, including but not limited to</p>
                             <ul>
-                                <li>Design and Architecture Engineering</li>
-                                <li>Civil and Building Materials Engineering</li>
+                                <li>Architecture Engineering</li>
+                                <li>Civil and Stractural Engineering</li>
+                                <li>Building Materials Engineering</li>
                                 <li>Transportation Engineering</li>
-                                <li>Geotechnical and Survey Engineering</li>
+                                <li>Geomatics and Survey Engineering</li>
                                 <li>Electrical and Computer Engineering</li>
                                 <li>Power and Renewable Energy Systems Engineering</li>
                                 <li>Automation, Control, Robotics and Industrial Engineering</li>
-                                <li>Electronics, Communication Engineering</li>
+                                <li>Electronics and Communication Engineering</li>
                                 <li>Photonics and Optoelectronics Engineering</li>
                                 <li>Aerospace Engineering</li>
                                 <li>Biomedical Engineering</li>
@@ -103,7 +104,7 @@
                                 <li>Petrolium and Petrochemical Engineering</li>
                                 <li>Chemical Engineering</li>
                                 <li>Mechanical and Automotive Engineering</li>
-                                <li>Material Science and Engineering</li>
+                                <li>Production and Materials Engineering</li>
                                 <li>Data Science and Engineering</li>
                                 <li>Engineering Management</li>
                                 <li>Risk and Reliability Engineering</li>

@@ -146,7 +146,7 @@
                 'description' => 'Paper Submission Period Opens',
             ],
             [
-                'date' => '31 July 2024',
+                'date' => '15 July 2024',
                 'description' => 'Submission Deadline',
             ],
             [
@@ -154,7 +154,7 @@
                 'description' => 'Notification of Acceptance Starts',
             ],
             [
-                'date' => '15 July 2024',
+                'date' => '31 July 2024',
                 'description' => 'Notification of Acceptance Ends',
             ],
             [

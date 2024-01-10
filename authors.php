@@ -120,7 +120,7 @@
                                 However, for
                                 ICEIT2024, the publication committee is currently engaged in discussions with esteemed
                                 publishers,
-                                including Springer, AIJR, IoP, and The Web of Conferences. Each engineering sector's
+                                including Springer, Elsevier, AIJR, IOP, and The Web of Conferences. Each engineering sector's
                                 proceedings
                                 will find a suitable publisher. </p>
                             <br>
@@ -175,11 +175,11 @@
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Paper Submission Period Opens</span> <span
                                         class="date"><strong>1 Mar 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Submission Deadline</span> <span
-                                        class="date"><strong>31 Jul 2024</strong></span></li>
+                                        class="date"><strong>15 Jul 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Starts</span> <span
                                         class="date"><strong>30 Apr 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Ends</span> <span
-                                        class="date"><strong>15 Jul 2024</strong></span></li>
+                                        class="date"><strong>30 Jul 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Opens</span> <span class="date"><strong>1
                                             July 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Deadline</span> <span
