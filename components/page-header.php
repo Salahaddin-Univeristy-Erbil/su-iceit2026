@@ -1,8 +1,8 @@
 
-<img src="./img/logo.jpg" class="main-logo" ></img>
 
 <header>
-    <img src="img/erbil.jpg" alt="Erbil" width="100%">
+<div class="logo-overlay">ICEIT2024</div>
+        <img src="./img/erbil-1280.jpg" class="header-image"></img>
 </header>
 <div class="nav-container">
 

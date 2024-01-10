@@ -16,10 +16,9 @@
 </head>
 
 <body>
-    <img src="./img/logo.jpg" class="main-logo"></img>
-
     <header class="row header">
-        <img src="./img/erbil.jpg" class="header-image"></img>
+        <div class="logo-overlay">ICEIT2024</div>
+        <img src="./img/erbil-1280.jpg" class="header-image"></img>
         <div class="header-overlay">
             <h1>
                 <div id="conferenceInfo">
@@ -171,7 +170,7 @@
             ],
             [
                 'date' => '18-19 September 2024',
-                'description' => 'Conference Starts',
+                'description' => 'Conference Time',
             ],
             [
                 'date' => '15 October 2024',
@@ -224,6 +223,36 @@
                 <li class="sponsor-item">
                     <a href="<?php echo htmlspecialchars($sponsor['href']); ?>" target="<?php echo htmlspecialchars($sponsor['target']); ?>" style="text-decoration: none;">
                         <div class="sponsored-logo">
+                            <img src="<?php echo htmlspecialchars($sponsor['img_src']); ?>" alt="<?php echo htmlspecialchars($sponsor['alt']); ?>">
+                        </div>
+                    </a>
+                </li>
+                <?php endforeach; ?>
+            </div>
+        </div>
+
+    </article>
+
+    <article class="row content">
+        <?php
+        $sponsors = [
+            [
+                'href' => 'https://www.concrete.org/',
+                'target' => 'aci',
+                'img_src' => 'img/aci.png',
+                'alt' => 'ACI',
+            ],
+
+        ];
+        ?>
+
+        <div id="technical-sponsors" style="border-top: 2px solid white;">
+            <h1 id="sponsors-title">Technical Sponsors</h1>
+            <div class="technical-sponsor-container">
+                <?php foreach ($sponsors as $sponsor): ?>
+                <li >
+                    <a href="<?php echo htmlspecialchars($sponsor['href']); ?>" target="<?php echo htmlspecialchars($sponsor['target']); ?>" style="text-decoration: none;">
+                        <div class="technical-sponsored-logo">
                             <img src="<?php echo htmlspecialchars($sponsor['img_src']); ?>" alt="<?php echo htmlspecialchars($sponsor['alt']); ?>">
                         </div>
                     </a>
