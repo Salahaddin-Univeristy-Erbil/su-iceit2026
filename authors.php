@@ -105,11 +105,10 @@
                 <div id="main" class="main-column">
                     <div class="content">
                         <div class="header">
-                            About ICEIT2024
+                            Information for Authors
                         </div>
 
                         <section class="welcome-message">
-                            <h2>Information for Authors</h2>
                             <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and
                                 technology in
                                 the Kurdistan region of Iraq. Hosted and organized biennially by the College of

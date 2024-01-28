@@ -165,7 +165,9 @@
                                     <li><strong>Asst. Prof. Dr. Abdulla Abdulwahid</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Jawdat Ibrahim</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Anwar</strong></li>
-                                     <li><strong>Dr. Salar Atrushi</strong></li>
+                                    <li><strong>Dr. Salar Atrushi</strong></li>
+                                     
+                                     
                                 </ul>
 
 
@@ -228,7 +230,7 @@
                             <h2>IT and Social Media</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Dr Pola Abdulhameed (Chair)</strong></li>
+                                    <li><strong>Dr Polla Fattah (Chair)</strong></li>
                                     <li><strong>Dr. Mardeen Anwar</strong></li>
                                     <li><strong>Dr. Muhammed Ismael Omer</strong></li>
                                     <li><strong>Silva Matti</strong></li>
@@ -298,7 +300,9 @@
                                    <li><strong>Prof. Dr. Ghamgeen Izat Rashed</strong> - University of Wuhan (China)</li> 
                                    <li><strong>Dr. Justin Champion </strong> - Staffordshire University (UK)</li> 
                                    <li><strong>Dr. Mohammad Hasan</strong> - Staffordshire University (UK)</li>
-                                    <li><strong>Dr. Tara Aili Yahiya</strong> - University of Paris Saclay (France)</li>                                 
+                                    <li><strong>Dr. Tara Aili Yahiya</strong> - University of Paris Saclay (France)</li>
+                                    <li><strong>Prof. Dr. Ayub Bokani</strong> - Central Queensland University (Australia)</li>                                 
+                                    
                                 </ul>
 
                             </div>

@@ -33,7 +33,7 @@
             <div class="main-container">
                 <div id="main" class="main-column">
                     <div class="header">
-                        Paper Submission
+                        Plenary Speakers
                     </div>
                     <div class="content coming-soon-container">
                         <h1 class="coming-soon">Coming Soon</h1>
