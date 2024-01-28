@@ -36,7 +36,13 @@
 
   .card-title {
     font-size: 24px;
-    margin: 30px 0px;
+    margin: 30px 0px 0px 0px;
+    color: #A9271E;
+  }
+
+  .card-subtitle {
+    font-size: 20px;
+    margin: 10px 0px;
   }
 
   .card-content {

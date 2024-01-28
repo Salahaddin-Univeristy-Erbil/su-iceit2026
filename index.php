@@ -71,40 +71,52 @@
             $cards = [
                 [
                     'title' => 'About ICEIT2024 ',
+                    'subtitle' => 'A Welcome Message and Invitation',
                     'img' => 'img/about.png',
                     'link' => 'about.php',
                 ],
                 [
                     'title' => 'Organizing Committee',
+                    'subtitle' => 'The People Behind the Conference',
                     'img' => 'img/Organization-Committees.png',
                     'link' => 'committee.php',
                 ],               
                 [
                     'title' => 'Call for Papers',
+                    'subtitle' => 'Topics and Templates',
                     'img' => 'img/Call-for-Paper.png',
                     'link' => 'call.php',
                 ],
                 [
-                    'title' => 'Information for Authors',
+                    'title' => 'For Authors',
+                    'subtitle' => 'Key Dates and Paper Editing Guide',
                     'img' => 'img/authors.png',
                     'link' => 'authors.php',
                 ],
                 [
                     'title' => 'Plenary Speakers',
+                    'subtitle' => 'Meet Our Special Guests',
                     'img' => 'img/Plenary-Speakers.png',
                     'link' => 'speakers.php',
                 ],
                 [
-                    'title' => 'Paper Submission',
+                    'title' => 'Submission',
+                    'subtitle' => 'Online Submission Links and Guidelines',
                     'img' => 'img/Paper-Submission.png',
                     'link' => 'submission.php',
                 ],
                 [
                     'title' => 'Registration',
+                    'subtitle' => 'Your Link and Helpful Guidance',
                     'img' => 'img/Registration.png',
                     'link' => 'registration.php',
                 ],
-
+                [
+                    'title' => 'Venue, Visa and Travel to Erbil',
+                    'subtitle' => 'Your Guide to Visa, Flight Companies',
+                    'img' => 'img/venue.png',
+                    'link' => 'venue.php',
+                ],
             ];
 
             foreach ($cards as $card):
@@ -114,7 +126,8 @@
                     <img src="<?php echo htmlspecialchars($card['img']); ?>" alt="Card Image" width="100%" />
                 </div>
                 <div class="card-body">
-                    <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
+                <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
+                <div class="card-subtitle"><?php echo htmlspecialchars($card['subtitle']); ?></div>
                     <a href="<?php echo htmlspecialchars($card['link']); ?>" class="card-detail-link">
                         <div class="card-detail">More Details</div>
                         <div class="circle">&gt;</div>
