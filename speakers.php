@@ -19,6 +19,25 @@
             color: #800000;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
+        .welcome-message {
+            background-color: #fff;
+            font-size: 1.3rem;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        @media (max-width: 768px){
+            .container {
+                width: 100%;
+            }
+            .welcome-message {
+            padding: 10px;
+            margin: 10px 0;
+
+        }
     </style>
 </head>
 
@@ -33,13 +52,28 @@
             <div class="main-container">
                 <div id="main" class="main-column">
                     <div class="header">
-                        Paper Submission
+                        Plenary Speakers
                     </div>
                     <div class="content coming-soon-container">
-                        <h1 class="coming-soon">Coming Soon</h1>
+                        <h1 class="coming-soon">
+                            <img src="img/abdulsalam_Medeni.jpg" />
+                        </h1>
 
                     </div>
+                    <section class="welcome-message">
+                    <p> AbdulSalam Medeni, a civil engineer, dedicated his efforts during the nineties to collaborating with UN agencies and international NGOs in the reconstruction of Iraqi Kurdistan following years of war and genocide campaigns. Subsequently, he transitioned his acquired knowledge to the younger generation through the Rwanga Foundation www.rwanga.org as Chief Executive Director since 2015. Leading the University of Kurdistan during a period of transformation in 2019-2020 and now he is a Governing Board member in the university. He has a strong focus on training leaders through leadership programs in MENA region. Widely recognized in the region for his adeptness in facilitating the transition of young graduates into the job market through innovative initiatives.</p>
+                    <p>Salam is also an author. He has written five books (Youth Problems); (Modernity, its Origin and Associations); (What is Terrorism); (Ten Pulses, Dialogue between Babel and Erbil) it is on coexistence; (How to design and deliver training with impact, co - author); (A training manual on “leadership and management” for NGOs); (A main reviewer of training manual on “Citizenship and coexistence” for Iraqi youth). </p>
 
+                    <p>In addition, he has more than 700 articles in local Iraqi and international newspapers and magazines about developing democracy, civil society and developing leadership skills. He also served as a lecturer at multiple universities in Iraq and had his own TV and radio shows.</p>
+                    <p>Salam served as an adviser for the Deputy Prime Minister of Kurdistan Regional Government on Civil Society and Youth issues.</p>
+                    <p>People know Salam as, AbdulSalam Medeni, the pseudonym that he used as a writer and lecturer. </p>
+                    <p> Salam will be our keynote speaker at ICEIT2024.</p>
+                    <p> His Social media platforms are the below:<br>
+                        <a href="https://www.google.com/search?q=%40AbdulSalam.Medeni">@AbdulSalam.Medeni</a><br>
+                        <a href="https://www.facebook.com/AbdulSalam-Medeni-269303183137015/">facebook</a><br>
+                        <a href="https://www.youtube.com/results?search_query=abdulsalam+medeni">YouTube</a><br>
+                    </p>
+                        </section>
                 </div>
             </div>
 

@@ -68,15 +68,14 @@
                 <div id="main" class="main-column">
                     <div class="content">
                     <div class="header">
-            About ICEIT2024
+            A welcome message from the organizing committee of ICEIT 2024
         </div>
 
                         <section class="welcome-message">
-                            <p>A welcome message from the organizing committee of ICEIT 2024.</p>
                             <p>We are excited to announce the 3rd edition of the International Conference on Engineering
                                 and Innovative Technology (ICEIT), organized by the College of Engineering at Salahaddin
-                                University-Erbil. This prestigious event is scheduled to be held on-site on September
-                                18-19, 2024, marking our return to in-person gatherings post the challenges posed by the
+                                University-Erbil. This prestigious event is scheduled to be held on-site on October
+                                30-31, 2024, marking our return to in-person gatherings post the challenges posed by the
                                 pandemic.</p>
                             <p>ICEIT has solidified its position as the premier general engineering and technology
                                 conference in the Kurdistan region of Iraq. Since its inception in 2016, with the

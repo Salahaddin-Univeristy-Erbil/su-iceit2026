@@ -123,19 +123,15 @@
                                 dinner featuring Kurdish music. We strive to keep the subscription fee as low as
                                 possible, thanks to the support of the President of Salahaddin University-Erbil, the
                                 Dean of the College of Engineering, and our sponsors.</p>
-                            <p>Regarding the publication of research papers, the publication committee is currently in
-                                discussions with prominent publishers such as Springer, AIJR, IoP, and The Web of
-                                Conferences. Each engineering sector will be published with the most relevant
-                                proceedings publisher.</p>
                             <p>The registration fees cover attendance at all sessions, the workshop, and the engineering
                                 exhibition, as well as all tea breaks and meals, the gala dinner, and the publication of
-                                papers in the conference proceedings by a prestigious international publisher. The fees
+                                papers in Zanco Journal or Salahaddin Conference Proceedings Lecture Notes. The fees
                                 are as follows:</p>
 
                             <ul>
-                                <li>Regular paper: 100,000 IQD (70 US$)</li>
-                                <li>Student paper: 50,000 IQD (35 US$)</li>
-                                <li>Participants without a paper: 25,000 IQD (17.5 US$)</li>
+                                <li>Regular paper: 100,000 IQD (75 US$)</li>
+                                <li>Student paper: 75,000 IQD (50 US$)</li>
+                                <li>Participants without a paper: 50,000 IQD (35 US$)</li>
                             </ul>
                             <p class="register-soon">Register: Coming soon</p>
                         </section>

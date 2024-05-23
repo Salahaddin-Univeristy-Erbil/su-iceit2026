@@ -105,25 +105,16 @@
                 <div id="main" class="main-column">
                     <div class="content">
                         <div class="header">
-                            About ICEIT2024
+                            Information for Authors
                         </div>
 
                         <section class="welcome-message">
-                            <h2>Information for Authors</h2>
-                            <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and
-                                technology in
-                                the Kurdistan region of Iraq. Hosted and organized biennially by the College of
-                                Engineering at
-                                Salahaddin University-Erbil, the conference has gained prominence through the
-                                publication of papers
-                                from ICEIT2019 and ICEIT2026 in the Zanco journal for pure and applied Science @SUE.
-                                However, for
-                                ICEIT2024, the publication committee is currently engaged in discussions with esteemed
-                                publishers,
-                                including Springer, Elsevier, AIJR, IOP, and The Web of Conferences. Each engineering sector's
-                                proceedings
-                                will find a suitable publisher. </p>
-                            <br>
+                            <p>The ICEIT conference, scheduled for 2024, serves as the leading event 
+                            for engineering and technology in the Kurdistan region of Iraq. Hosted and organized every 
+                            three years by the College of Engineering at Salahaddin University-Erbil (The third edition has been rescheduled to October 2024 due to the 
+                            impact of the pandemic), the conference has gained recognition 
+                            for publishing papers in the Zanco Journal for Pure and Applied Science from both ICEIT2016 and ICEIT2019. 
+                            This upcoming edition will also be included in the Zanco Journal. </p><br>
                         </section>
                         <section class="welcome-message">
                             <h2>Conference Overview</h2>
@@ -136,8 +127,11 @@
                                     <li><strong>Hosted By:</strong> College of Engineering at Salahaddin
                                         University-Erbil</li>
                                     <li><strong>Location:</strong> Erbil, Kurdistan Region of Iraq</li>
-                                    <li><strong>Proceeding Publishers:</strong> Springer, AIJR, IoP, The Web of
-                                        Conferences</li>
+                                    <li><strong>Prospective Publication of Papers:</strong> Papers that meet the conference requirements will be published 
+                                    in the academic journal of Salahaddin University-Erbil, Zanco for Pure and Applied Sciences, which is 
+                                    indexed by the Ministry of Higher Education in Iraq and Kurdistan. It is also indexed in a diverse range of international databases (DOAJ, Google Scholar, Crossref, etc.) and 
+                                    is presently undergoing evaluation for inclusion in Scopus.</li>
+                                        
                                 </ul>
                             </div>
                         </section>
@@ -175,59 +169,58 @@
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Paper Submission Period Opens</span> <span
                                         class="date"><strong>1 Mar 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Submission Deadline</span> <span
-                                        class="date"><strong>15 Jul 2024</strong></span></li>
+                                        class="date"><strong>31 Jul 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Starts</span> <span
-                                        class="date"><strong>30 Apr 2024</strong></span></li>
+                                        class="date"><strong>1 May 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Ends</span> <span
-                                        class="date"><strong>30 Jul 2024</strong></span></li>
+                                        class="date"><strong>15 Sep 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Opens</span> <span class="date"><strong>1
                                             July 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Deadline</span> <span
-                                        class="date"><strong>31 Aug 2024</strong></span></li>
+                                        class="date"><strong>30 Sep 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Program Announcement</span> <span
-                                        class="date"><strong>7 Sept 2024</strong></span></li>
-                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Starts</span> <span class="date"><strong>18
-                                            Sep 2024</strong></span></li>
-                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Ends</span> <span class="date"><strong>19
-                                            Sep 2024</strong></span></li>
-                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Publication of Proceedings</span> <span
                                         class="date"><strong>15 Oct 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Starts</span> <span class="date"><strong>30
+                                            Oct 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Ends</span> <span class="date"><strong>31
+                                            Oct 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Publication of Proceedings</span> <span
+                                        class="date"><strong>31 Dec 2024</strong></span></li>
                             </ul>
 
 
                         </section>
                         <section class="welcome-message">
-                            <h2>Paper Submission</h2>
+                            <h2>Paper Format and Submission</h2>
                             <ul>
-                                <li><strong>Originality:</strong> We emphasize the importance of originality in
-                                    submissions.
-                                    Papers must be unique, not previously published, or currently under consideration
-                                    for
-                                    publication elsewhere. This ensures the freshness and novelty of the research
-                                    presented
-                                    at our conference.
+                                <li><strong>Paper Format:</strong> 
+                                <p>To make the submission process smoother, we kindly request that authors follow these instructions.</p> 
+                            <p>Please prepare your manuscript in MS-Word using Times New Roman font with a size of 12 pt and adhere to the Harvard style for referencing. </p>
+                            <p> When drafting your paper, focus solely on the content and structure, as our conference and journal team will handle the formatting.</p> 
+                            <p>Below, you'll find the recommended order for organizing your paper.</p> 
+                            <p>Thank you for your cooperation in maintaining consistency and efficiency throughout the submission process.The manuscript should be compiled in the following order:</p>
 
-                                <li><strong>Review Process:</strong> Our conference upholds the highest standards of
-                                    academic
-                                    integrity. We employ a double-blind peer review process, complemented by thorough
-                                    plagiarism and AI checks. This rigorous procedure ensures the credibility and
-                                    quality of
-                                    every paper accepted and presented.
+                            <p><strong>Title, </strong> should include: Title, Authors and affiliations, Corresponding author </p>
+                            <p><strong>Abstract</strong></p>
+                            <p><strong>Introduction</strong></p>
+                            <p><strong>Main Content</strong></p>
+                            <p><strong>Conclusion</strong></p>
+                            <p><strong>Acknowledgement</strong></p>
+                            <p><strong>Conflict of Interest</strong></p>
+                            <p><strong>References (Harvard Style only)</strong></p>
+                            <p><strong>Tables:</strong> Refer to Tables in the text as Table 1, etc. Use Table 1 (boldface), etc., in the title of the Table.</p>
+                            <p><strong>Figures:</strong> The number of figures should be no more than 6 and appropriate for the presented data.</p> 
+                                     Figures should be referred to as Figure 1, Figures 2, 3-5 (boldface), using Arabic numerals.
 
-                                <li><strong>Templates:</strong> For consistency and ease of formatting, authors are
-                                    required
-                                    to use our provided MS-Word and Latex templates. These templates are designed to
-                                    meet
-                                    the formatting guidelines of the conference and facilitate a uniform look for all
-                                    proceedings.
-
-                                <li><strong>Submission Process:</strong> Upon finalizing their papers, authors are
-                                    required
-                                    to convert their documents into PDF format. The final versions should then be
-                                    submitted
-                                    through our dedicated online submission system. This process ensures a streamlined
-                                    and
-                                    efficient handling of all submissions.
+                            <p><strong>Publication of Papers:</strong>Papers demonstrating merit will find publication in Zanco Journal 
+                            of Pure and Applied Sciences: the Scientific Journal of Salahaddin University-Erbil. This academic journal is showcased in the list of 
+                            publications endorsed by the Ministries of Higher Education in Iraq and Kurdistan. Furthermore, it is indexed across a diverse array of 
+                            international databases (DOAJ, Google Scholar, Crossref, etc.) and is presently undergoing evaluation for inclusion in Scopus.</p>
+                            <p><Strong> Submission</Strong><p>Once your article is prepared, please utilize the provided link in <strong>Submission Section</strong> to submit the paper. 
+                            You will receive an automated email confirming the successful submission. Subsequently, within a month's time, 
+                            you can anticipate receiving another email regarding the acceptance for presentation at the conference, potential revisions, 
+                            or the rejection of the paper. It's important to note that all papers presented will be considered for publication in the Zanco Journal.</p>
+                           
                             </ul>
 
                         </section>

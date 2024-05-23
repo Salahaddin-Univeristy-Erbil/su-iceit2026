@@ -71,40 +71,52 @@
             $cards = [
                 [
                     'title' => 'About ICEIT2024 ',
+                    'subtitle' => 'A Welcome Message and Invitation',
                     'img' => 'img/about.png',
                     'link' => 'about.php',
                 ],
                 [
                     'title' => 'Organizing Committee',
+                    'subtitle' => 'The People Behind the Conference',
                     'img' => 'img/Organization-Committees.png',
                     'link' => 'committee.php',
                 ],               
                 [
                     'title' => 'Call for Papers',
+                    'subtitle' => 'Topics and Templates',
                     'img' => 'img/Call-for-Paper.png',
                     'link' => 'call.php',
                 ],
                 [
-                    'title' => 'Information for Authors',
+                    'title' => 'For Authors',
+                    'subtitle' => 'Key Dates and Paper Editing Guide',
                     'img' => 'img/authors.png',
                     'link' => 'authors.php',
                 ],
                 [
                     'title' => 'Plenary Speakers',
+                    'subtitle' => 'Meet Our Special Guests',
                     'img' => 'img/Plenary-Speakers.png',
                     'link' => 'speakers.php',
                 ],
                 [
-                    'title' => 'Paper Submission',
+                    'title' => 'Submission',
+                    'subtitle' => 'Online Submission Links and Guidelines',
                     'img' => 'img/Paper-Submission.png',
                     'link' => 'submission.php',
                 ],
                 [
                     'title' => 'Registration',
+                    'subtitle' => 'Your Link and Helpful Guidance',
                     'img' => 'img/Registration.png',
                     'link' => 'registration.php',
                 ],
-
+                [
+                    'title' => 'Venue, Visa and Travel to Erbil',
+                    'subtitle' => 'Your Guide to Visa, Flight Companies',
+                    'img' => 'img/venue.png',
+                    'link' => 'venue.php',
+                ],
             ];
 
             foreach ($cards as $card):
@@ -114,7 +126,8 @@
                     <img src="<?php echo htmlspecialchars($card['img']); ?>" alt="Card Image" width="100%" />
                 </div>
                 <div class="card-body">
-                    <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
+                <div class="card-title"><?php echo htmlspecialchars($card['title']); ?></div>
+                <div class="card-subtitle"><?php echo htmlspecialchars($card['subtitle']); ?></div>
                     <a href="<?php echo htmlspecialchars($card['link']); ?>" class="card-detail-link">
                         <div class="card-detail">More Details</div>
                         <div class="circle">&gt;</div>
@@ -138,44 +151,34 @@
         $importantDates = [
             [
                 'date' => '1 January 2024',
-                'description' => 'Call for Papers Announcement',
+                'description' =>  'Call for Papers Announcement',
+            ],
+ 
+            [
+                'date' => '1 March - 31 July 2024',
+                'description' => 'Full Paper Submission',
             ],
             [
-                'date' => '1 March 2024',
-                'description' => 'Paper Submission Period Opens',
+                'date' => '1 May - 15 September 2024',
+                'description' => 'Notification of Acceptance',
+            ],
+             [
+                'date' => '20 September 2024',
+                'description' => 'Camera-Ready Submission Deadline',
             ],
             [
-                'date' => '15 July 2024',
-                'description' => 'Submission Deadline',
-            ],
-            [
-                'date' => '30 April 2024',
-                'description' => 'Notification of Acceptance Starts',
-            ],
-            [
-                'date' => '31 July 2024',
-                'description' => 'Notification of Acceptance Ends',
-            ],
-            [
-                'date' => '1 July 2024',
-                'description' => 'Registration Opens',
-            ],
-            [
-                'date' => '31 August 2024',
-                'description' => 'Registration Deadline',
-            ],
-            [
-                'date' => '7 September 2024',
-                'description' => 'Program Announcement',
-            ],
-            [
-                'date' => '18-19 September 2024',
-                'description' => 'Conference Time',
+                'date' => '1- 30 September 2024',
+                'description' => 'Registration',
             ],
             [
                 'date' => '15 October 2024',
-                'description' => 'Publication of Proceedings',
+                'description' => 'Program Announcement',
             ],
+            [
+                'date' => '30-31 October 2024',
+                'description' => 'Conference Time',
+            ],
+
         ];
         
         ?>
@@ -267,7 +270,7 @@
     <script src="js/countdown.js"></script>
     <script>
         const mainText = `The 3rd International Conference on Engineering and Innovative Technology (ICEIT 2024)`;
-        const dateText = `September 18-19, 2024`;
+        const dateText = `October 30-31, 2024`;
         const locationText = `Erbil, Kurdistan, Iraq`;
 
         function typeWriter(text, elementId, callback) {

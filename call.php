@@ -89,6 +89,7 @@
                                 <li>Architecture Engineering</li>
                                 <li>Civil and Stractural Engineering</li>
                                 <li>Building Materials Engineering</li>
+                                 <li>Geotechnical Engineering</li>        
                                 <li>Transportation Engineering</li>
                                 <li>Geomatics and Survey Engineering</li>
                                 <li>Electrical and Computer Engineering</li>
@@ -98,7 +99,13 @@
                                 <li>Photonics and Optoelectronics Engineering</li>
                                 <li>Aerospace Engineering</li>
                                 <li>Biomedical Engineering</li>
-                                <li>Software Engineering and Artificial Intelligence</li>
+                                <li>Software Engineering</li>
+                                  <li>Software Engineering</li>
+                                <li>Software Engineering</li>
+                                <li>Software Engineering</li>
+                              
+                                
+                                
                                 <li>Water Resources and Environmental Engineering</li>
                                 <li>Sustainability Engineering</li>
                                 <li>Petrolium and Petrochemical Engineering</li>
@@ -115,12 +122,9 @@
                         </section>
 
                         <section class="submission-guidelines">
-                            <h2>Paper Submission Guidelines</h2>
-                            <p>Papers must be from 4-8 pages inclusive, and must adhere to the provided templates.</p>
-                            <ul>
-                                <li><a href="#">MS-Word template</a></li>
-                                <li><a href="#">Latex Template</a></li>
-                            </ul>
+                            <h2>Paper Formatting and Submission Guidelines</h2>
+                            <p>Papers must be from 4-8 pages inclusive, please refer to the <strong>For Authors</strong> or <strong> Submission</strong> sections for guidelines on paper 
+                            formatting and submission.</p>
                         </section>
 
 

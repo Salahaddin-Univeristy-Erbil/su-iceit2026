@@ -90,10 +90,9 @@
                                 <ul>
                                     <li><strong>Asst. Prof. Dr. Kamaran Younis</strong> - Honorary Chair, President of
                                         Salahaddin University-Erbil</li>
-                                    <li><strong>Prof. Dr. Shuokr Qarani Aziz</strong> - Honorary Chair, Dean of
-                                        Engineering College</li>
-                                    <li><strong>Asst. Prof. Dr. Shareef Maulod</strong> - Honorary Chair, Vice President
-                                        of Salahaddin University-Erbil, Academic</li>
+                                    <li><strong>Asst. Prof. Dr. Shareef Maulod</strong> - Honorary Chair, Vice President of Salahaddin University-Erbil, Academic</li>
+                                   <li><strong>Prof. Dr. Shuokr Qarani Aziz</strong> - Honorary Chair, Dean of
+                                        Engineering College</li>                                        
                                 </ul>
                             </div>
                         </div>
@@ -105,12 +104,11 @@
                                     </li>
                                     <li><strong>Prof. Dr. Omar Qarani Aziz</strong> - Scientific Committee Chair
                                     </li>
-                                    <li><strong>Prof. Dr. Samah Abdulkareem</strong> - Publishing Committee Chair
-                                    </li>
+                                    <li><strong>Prof. Dr. Muhammed Abdulbaki</strong> - Organizing Committee Member</li>            
                                     <li><strong>Prof. Dr. Fars Ali Mustafa</strong> - Organizing Committee
                                         Member</li>
-                                      <li><strong>Prof. Dr. Sinan Yaseenr</strong> - Logistics Committee Chair</li>  
-                                    <li><strong>Asst. Prof. Rizgar Bakir</strong> - Organizing Committee Member</li>
+                                      <li><strong> Asst. Prof. Dr. Hawro Khalil Shakr</strong> - Logistics Committee Chair</li>  
+                                    <li><strong>Asst. Prof. Dr. Rizgar Bakir</strong> - Organizing Committee Member</li>
                                     <li><strong>Asst. Prof. Dr. Salahaddin Yaseen Baper</strong> - Workshops and
                                         Exhibition Committee Chair</li>
                                     <li><strong>Dr. Polla Abdulhamid Fattah</strong> - IT and Social Media Committee
@@ -134,7 +132,7 @@
                                     <li><strong>Prof. Dr Sinan Abdulkhalq</strong></li>
                                     <li><strong>Prof. Dr. Najad Ahmed Uussain</strong></li>
                                     <li><strong>Prof. Dr. Ramzi Rufaeel</strong></li>
-                                    <li><strong>Prof. Dr. Hussain Ali Hussain</strong></li>
+                                    <li><strong>Prof. Dr. Husein Ali Husein</strong></li>
                                     <li><strong>Prof. Dr. Nawzad Abduljabbar</strong></li>
                                     <li><strong>Prof. Dr. Yousf ismael mawlood</strong></li>
                                     <li><strong>Prof. Dr. Iyd Eqqab Maree</strong></li>
@@ -155,7 +153,7 @@
                                     <li><strong>Asst. Prof. Dr. Thuraya Mahmood</strong></li>
                                     <li><strong>Asst. Prof. Dr. Dlshad Khidr Hamadameen</strong></li>
                                     <li><strong>Asst. Prof Dr. Abbas Muhammed Ali</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Jihan Muhammed Shekh</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Jehan Muhammed  Sheikh</strong></li>
                                     <li><strong>Asst. Prof. Dr. Moayad Patrus</strong></li>
                                     <li><strong>Asst. Prof. Dr. Ramadhan gardi</strong></li>
                                     <li><strong>Asst. Prof. Dr. Gulnar Muhammed Hadi</strong></li>
@@ -164,8 +162,9 @@
                                     <li><strong>Asst. Prof. Dr. Dler Salih</strong></li>
                                     <li><strong>Asst. Prof. Dr. Abdulla Abdulwahid</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Jawdat Ibrahim</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Muhammed Anwar</strong></li>
-                                     <li><strong>Dr. Salar Atrushi</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Mohammed Anwer Jassim</strong></li>
+                                     <li><strong>Asst. Prof. Dr. Ismael Kareem</strong></li>                    
+                                    <li><strong>Dr. Salar Jamal Abdulhameed Al-Atroshi</strong></li>
                                 </ul>
 
 
@@ -176,14 +175,12 @@
                             <h2>Logistics Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Prof. Dr. Sinan Yaseen(Chair)</strong></li>
-                                    <li><strong>Asst. Prof. Dr Hawro Khalil Shakr</strong></li>
+                                    <li><strong>Asst. Prof. Dr Hawro Khalil Shakr (Chair)</strong></li>
                                     <li><strong>Asst. Prof. Dr. Sirwan Khidr Mala</strong></li>
                                       <li><strong>Asst. Prof. Dr. Mohammed Ali Ihsan</strong></li>               
                                     <li><strong>Dr. Jamal Abdulla Hassan</strong></li>
                                     <li><strong>Sarkar Jawhar Sharef</strong></li>
                                      <li><strong>Hawkar Hashim</strong></li>
-                                    
                                     <li><strong>Rojgar Qarani Ismael</strong></li>
                                     <li><strong>Muhammed Syamand</strong></li> 
                                     <li><strong>Awat Sadi Ali</strong></li>
@@ -200,7 +197,7 @@
                             <h2>Finance Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Dr. Danar Hassan Talabani</strong> (Chair)</li>
+                                    <li><strong>Dr. Danar Hassan Talabani(Chair)</strong></li>
                                     <li><strong>Dr. Sirwan Malla</strong></li>
                                     <li><strong>Bahar Mohammad</strong></li>
                                     <li><strong>Khabat Hashim</strong></li>
@@ -213,11 +210,11 @@
                             <h2>Publication Committee</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Prof. Dr. Samah Abdulkarem Mustafa (Chair)</strong></li>
                                     <li><strong>Prof. Dr. Fars Ali Mustafa</strong></li>
                                     <li><strong>Asst. Prof. Dr. Fatdhil Tawfiq Awal</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Qahar Muhammed</strong></li>
-                                    <li><strong>Dr. Mustafa Atrushi</strong></li>
+                                    <li><strong>Dr. Mardeen Anwar</strong></li>
+                                    <li><strong>Azad Abdulla</strong></li>     
+                                     <li><strong>Hawkar Hashim</strong></li>    
                                 </ul>
 
 
@@ -228,7 +225,7 @@
                             <h2>IT and Social Media</h2>
                             <div class="committee-members">
                                 <ul>
-                                    <li><strong>Dr Pola Abdulhameed (Chair)</strong></li>
+                                    <li><strong>Dr Polla Fattah (Chair)</strong></li>
                                     <li><strong>Dr. Mardeen Anwar</strong></li>
                                     <li><strong>Dr. Muhammed Ismael Omer</strong></li>
                                     <li><strong>Silva Matti</strong></li>
@@ -273,7 +270,7 @@
                         </div>
 
                         <div class="committee-section">
-                            <h2>Advisory Board</h2>
+                            <h2>International Program Board</h2>
                             <div class="committee-members">
                                 <ul>
                                     <li><strong>Prof. Dr. Carl Crane III</strong> - University of Florida (USA)</li>
@@ -298,7 +295,10 @@
                                    <li><strong>Prof. Dr. Ghamgeen Izat Rashed</strong> - University of Wuhan (China)</li> 
                                    <li><strong>Dr. Justin Champion </strong> - Staffordshire University (UK)</li> 
                                    <li><strong>Dr. Mohammad Hasan</strong> - Staffordshire University (UK)</li>
-                                    <li><strong>Dr. Tara Aili Yahiya</strong> - University of Paris Saclay (France)</li>                                 
+                                    <li><strong>Dr. Tara Aili Yahiya</strong> - University of Paris Saclay (France)</li>
+                                    <li><strong>Prof. Dr. Ayub Bokani</strong> - Central Queensland University (Australia)</li>
+                                    <li><strong>Prof. Rüdiger Schwarze</strong> - TU Bergakademie Freiberg (Germany)</li>                                   
+                                    
                                 </ul>
 
                             </div>
