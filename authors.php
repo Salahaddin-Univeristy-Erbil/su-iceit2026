@@ -109,12 +109,21 @@
                         </div>
 
                         <section class="welcome-message">
-                            <p>The ICEIT conference, scheduled for 2024, serves as the leading event 
-                            for engineering and technology in the Kurdistan region of Iraq. Hosted and organized every 
-                            three years by the College of Engineering at Salahaddin University-Erbil (The third edition has been rescheduled to October 2024 due to the 
-                            impact of the pandemic), the conference has gained recognition 
-                            for publishing papers in the Zanco Journal for Pure and Applied Science from both ICEIT2016 and ICEIT2019. 
-                            This upcoming edition will also be included in the Zanco Journal. </p><br>
+
+                            <p>The ICEIT conference, slated for 2024, stands as the premier event for engineering and
+                                technology in
+                                the Kurdistan region of Iraq. Hosted and organized biennially by the College of
+                                Engineering at
+                                Salahaddin University-Erbil, the conference has gained prominence through the
+                                publication of papers
+                                from ICEIT2019 and ICEIT2026 in the Zanco journal for pure and applied Science @SUE.
+                                However, for
+                                ICEIT2024, the publication committee is currently engaged in discussions with esteemed
+                                publishers,
+                                including Springer, Elsevier, AIJR, IOP, and The Web of Conferences. Each engineering sector's
+                                proceedings
+                                will find a suitable publisher. </p>
+                            <br>
                         </section>
                         <section class="welcome-message">
                             <h2>Conference Overview</h2>
