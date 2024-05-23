@@ -162,10 +162,9 @@
                                     <li><strong>Asst. Prof. Dr. Dler Salih</strong></li>
                                     <li><strong>Asst. Prof. Dr. Abdulla Abdulwahid</strong></li>
                                     <li><strong>Asst. Prof. Dr. Muhammed Jawdat Ibrahim</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Muhammed Anwar</strong></li>
-                                    <li><strong>Dr. Salar Atrushi</strong></li>
-                                     
-                                     
+                                    <li><strong>Asst. Prof. Dr. Mohammed Anwer Jassim</strong></li>
+                                     <li><strong>Asst. Prof. Dr. Ismael Kareem</strong></li>                    
+                                    <li><strong>Dr. Salar Jamal Abdulhameed Al-Atroshi</strong></li>
                                 </ul>
 
 
@@ -297,7 +296,8 @@
                                    <li><strong>Dr. Justin Champion </strong> - Staffordshire University (UK)</li> 
                                    <li><strong>Dr. Mohammad Hasan</strong> - Staffordshire University (UK)</li>
                                     <li><strong>Dr. Tara Aili Yahiya</strong> - University of Paris Saclay (France)</li>
-                                    <li><strong>Prof. Dr. Ayub Bokani</strong> - Central Queensland University (Australia)</li>                                 
+                                    <li><strong>Prof. Dr. Ayub Bokani</strong> - Central Queensland University (Australia)</li>
+                                    <li><strong>Prof. Rüdiger Schwarze</strong> - TU Bergakademie Freiberg (Germany)</li>                                   
                                     
                                 </ul>
 
