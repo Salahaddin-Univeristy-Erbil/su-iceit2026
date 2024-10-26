@@ -124,16 +124,12 @@
                             <div class="committee-members">
                                 <ul>
                                     <li><strong>Prof. Dr. Omar Qarani Aziz (Chair)</strong></li>
-                                    <li><strong>Prof. Dr. Shawnm Rasheed</strong></li>
-                                    <li><strong>Prof. Dr. Safeen Yaseen Izzaden</strong></li>
                                     <li><strong>Prof. Dr. Muhammed Abdulbaki</strong></li>
                                     <li><strong>Prof. Dr. Ali Ramazn</strong></li>
                                     <li><strong>Prof. Dr. Dyari raoof Sulaiman</strong></li>
                                     <li><strong>Prof. Dr Sinan Abdulkhalq</strong></li>
-                                    <li><strong>Prof. Dr. Najad Ahmed Uussain</strong></li>
                                     <li><strong>Prof. Dr. Ramzi Rufaeel</strong></li>
                                     <li><strong>Prof. Dr. Husein Ali Husein</strong></li>
-                                    <li><strong>Prof. Dr. Nawzad Abduljabbar</strong></li>
                                     <li><strong>Prof. Dr. Yousf ismael mawlood</strong></li>
                                     <li><strong>Prof. Dr. Iyd Eqqab Maree</strong></li>
                                     <li><strong>Prof. Dr. Faris Ali Mustafa</strong></li>
@@ -144,11 +140,11 @@
                                     <li><strong>Asst. Prof. Dr Ahmed Hedayat</strong></li>
                                     <li><strong>Asst. Prof. Dr. Aso Faiz Talabani</strong></li>
                                     <li><strong>Asst. Prof. Dr. Rzgar Bakir</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Hamid Turki Haykal</strong></li>
                                     <li><strong>Asst. Prof. Dr. Abdulkareem Darweesh</strong></li>
                                     <li><strong>Asst. Prof. Dr Faerosha Salih Muhammed</strong></li>
                                     <li><strong>Asst. Prof. Dr Jalil Aziz Hamadameen</strong></li>
                                     <li><strong>Asst. Prof. Dr. Hilmi Fathil Ameen</strong></li>
+                                    <li><strong>Asst. Prof. Dr. Fadhil Tawfiq Awla</strong></li>
                                     <li><strong>Asst. Prof.Dr. Muhammed Tahir</strong></li>
                                     <li><strong>Asst. Prof. Dr. Thuraya Mahmood</strong></li>
                                     <li><strong>Asst. Prof. Dr. Dlshad Khidr Hamadameen</strong></li>
@@ -161,10 +157,10 @@
                                     <li><strong>Asst. Prof. Dr. Jalal Jamal</strong></li>
                                     <li><strong>Asst. Prof. Dr. Dler Salih</strong></li>
                                     <li><strong>Asst. Prof. Dr. Abdulla Abdulwahid</strong></li>
-                                    <li><strong>Asst. Prof. Dr. Muhammed Jawdat Ibrahim</strong></li>
                                     <li><strong>Asst. Prof. Dr. Mohammed Anwer Jassim</strong></li>
                                      <li><strong>Asst. Prof. Dr. Ismael Kareem</strong></li>                    
                                     <li><strong>Dr. Salar Jamal Abdulhameed Al-Atroshi</strong></li>
+                                    <li><strong> Hawkar Hashim Ibrahim</strong></li>
                                 </ul>
 
 
@@ -213,8 +209,10 @@
                                     <li><strong>Prof. Dr. Fars Ali Mustafa</strong></li>
                                     <li><strong>Asst. Prof. Dr. Fatdhil Tawfiq Awal</strong></li>
                                     <li><strong>Dr. Mardeen Anwar</strong></li>
-                                    <li><strong>Azad Abdulla</strong></li>     
-                                     <li><strong>Hawkar Hashim</strong></li>    
+                                    <li><strong>Asst. Lect. Azad Abdulla</strong></li>     
+                                     <li><strong>Asst. Lect. Hawkar Hashim</strong></li> 
+                                     <li><strong>Berivan Adil</strong></li>  
+                                     <li><strong>Ikhlas Muhammed Noori</strong></li>  
                                 </ul>
 
 
@@ -228,9 +226,13 @@
                                     <li><strong>Dr Polla Fattah (Chair)</strong></li>
                                     <li><strong>Dr. Mardeen Anwar</strong></li>
                                     <li><strong>Dr. Muhammed Ismael Omer</strong></li>
-                                    <li><strong>Silva Matti</strong></li>
-                                    <li><strong>Maikey Zaki Khorani</strong></li>
-                                  <li><strong>Imad Hasan</strong></li>  
+                                    <li><strong>Asst. Lect. Silva Matti</strong></li>
+                                    <li><strong>Asst. Lect. Maikey Zaki Khorani</strong></li>
+                                  <li><strong>Asst. Lect. Imad Hasan</strong></li>
+                                  <li><strong>Asst. Lect. Dler Alaadeen</strong></li>
+                                  <li><strong>Asst. Lect. Ahmed Abdul Fattah</strong></li>
+                                  <li><strong>Omer Tariq</strong></li>
+                                  <li><strong>Hadja Khatab</strong></li>  
                                 </ul>
 
 
@@ -244,9 +246,10 @@
                                     <li><strong>Dr. Zina Muneam  (Chair)</strong></li>
                                     <li><strong>Dr. Hawar Himdad Jamal</strong></li>
                                     <li><strong>Asst. Prof. Maha Gorge Zya</strong></li>
-                                    <li><strong>Avan Taha Salih</strong></li>
-                                    <li><strong>Roshna Abdulqadir</strong></li>
-                                  <li><strong>Ibtihal Hussain Yousif</strong></li>                                   
+                                    <li><strong>Lect. Nian Khidr Aziz</strong></li>                                   
+                                    <li><strong>Asst. Lect. Avan Taha Salih</strong></li>
+                                    <li><strong>Asst. Lect.Roshna Abdulqadir</strong></li>
+                                    <li><strong>Asst. Lect. Ibtihal Hussain Yousif</strong></li>                                   
                                     <li><strong>Hersh Mahmood</strong></li>
                                     <li><strong>Fareeda Ayub</strong></li>
                                     <li><strong>Hardee Abdulla</strong></li>
@@ -262,7 +265,7 @@
                                 <ul>
                                     <li><strong>Asst. Prof. Dr Salahaddin Yaseen Bapeer</strong> (Chair)</li>
                                     <li><strong>Asst. Prof. Dr Haval Abduljabbar</strong></li>
-                                    <li><strong>Lava Abubakir</strong></li> 
+                                    <li><strong>Lava Qasim</strong></li> 
                                    <li><strong>Rawand Abdulla</strong></li>  
                                 </ul>
 
@@ -274,7 +277,7 @@
                             <div class="committee-members">
                                 <ul>
                                     <li><strong>Prof. Dr. Carl Crane III</strong> - University of Florida (USA)</li>
-                                    <li><strong>Dr. Amin Mojiri</strong> - Hiroshima University (Japan)</li>
+                                    <li><strong>Dr. Amin Mojiri</strong> - Arizona State University (USA)</li>
                                     <li><strong>Prof. Dr. Bo Liu</strong> - University of Glasgow (UK)</li>
                                     <li><strong>Dr. Honar Issa</strong> - American University of Kurdistan (Iraq)</li>
                                     <li><strong>Prof. Dr. Kamal Haji Nabi</strong> - Ex-President, Salahaddin

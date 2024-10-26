@@ -47,6 +47,7 @@
                     </div>
                     <div class="content">
                         <section class="welcome-message">
+                                <span style="color: red;">Updated on 10 September 2024, at 10:20 AM.</span>
                             <p>Welcome to the submission guidelines for our conference. We appreciate your interest in sharing your research with us.</p>
                             <p><strong>Originality</strong></p><p>We emphasize the importance of originality in submissions.
                                 Papers must be unique, not previously published, or currently under consideration for
@@ -76,7 +77,7 @@
                             <p><strong>Publication of Papers:</strong>Papers demonstrating merit will find publication in Zanco Journal 
                             of Pure and Applied Sciences: the Scientific Journal of Salahaddin University-Erbil. This academic journal is showcased in the list of 
                             publications endorsed by the Ministries of Higher Education in Iraq and Kurdistan. Furthermore, it is indexed across a diverse array of 
-                            international databases (DOAJ, Google Scholar, Crossref, etc.) and is presently undergoing evaluation for inclusion in Scopus.</p>
+                            international databases (Scopus, DOAJ, Google Scholar, Crossref, etc.)</p>
                             
                             
                             <p><Strong> Submission</Strong><p>Once your article is prepared, please utilize the provided link below to submit the paper. 

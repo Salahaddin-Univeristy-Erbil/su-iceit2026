@@ -26,15 +26,19 @@
             margin: 20px 0;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 1.3em;
         }
 
 
         @media (max-width: 768px){
+            .coming-soon-container img{
+                width: 90%;
+            }
             .container {
                 width: 100%;
             }
             .welcome-message {
-            padding: 10px;
+            padding: 15px;
             margin: 10px 0;
 
         }
@@ -55,10 +59,7 @@
                         Plenary Speakers
                     </div>
                     <div class="content coming-soon-container">
-                        <h1 class="coming-soon">
                             <img src="img/abdulsalam_Medeni.jpg" />
-                        </h1>
-
                     </div>
                     <section class="welcome-message">
                     <p> AbdulSalam Medeni, a civil engineer, dedicated his efforts during the nineties to collaborating with UN agencies and international NGOs in the reconstruction of Iraqi Kurdistan following years of war and genocide campaigns. Subsequently, he transitioned his acquired knowledge to the younger generation through the Rwanga Foundation www.rwanga.org as Chief Executive Director since 2015. Leading the University of Kurdistan during a period of transformation in 2019-2020 and now he is a Governing Board member in the university. He has a strong focus on training leaders through leadership programs in MENA region. Widely recognized in the region for his adeptness in facilitating the transition of young graduates into the job market through innovative initiatives.</p>

@@ -14,7 +14,7 @@
       <div class="footer-container">
           <!-- Second row of five columns -->
           <div class="footer-item">©2024 ICEIT2024</div>
-          <div class="footer-item"><a href="mailto:info@iceit2024.org" target="su">info@iceit2024.org</a>
+          <div class="footer-item"><a href="mailto:info@iceit2024.org" target="su">email: iceit2024@su.edu.krd</a>
           </div>
       </div>
   </div>

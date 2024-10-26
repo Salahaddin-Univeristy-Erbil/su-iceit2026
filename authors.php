@@ -109,12 +109,13 @@
                         </div>
 
                         <section class="welcome-message">
+                            <span style="color: red;">Updated on 10 September 2024, at 10:20 AM.</span>
                             <p>The ICEIT conference, scheduled for 2024, serves as the leading event 
                             for engineering and technology in the Kurdistan region of Iraq. Hosted and organized every 
                             three years by the College of Engineering at Salahaddin University-Erbil (The third edition has been rescheduled to October 2024 due to the 
                             impact of the pandemic), the conference has gained recognition 
                             for publishing papers in the Zanco Journal for Pure and Applied Science from both ICEIT2016 and ICEIT2019. 
-                            This upcoming edition will also be included in the Zanco Journal. </p><br>
+                            The original and well-organized papers will be submitted to Zanco Journal for consideration. Zanco Journal is indexed in Scopus, DOAJ, and Google Scholar. </p><br>
                         </section>
                         <section class="welcome-message">
                             <h2>Conference Overview</h2>
@@ -129,8 +130,7 @@
                                     <li><strong>Location:</strong> Erbil, Kurdistan Region of Iraq</li>
                                     <li><strong>Prospective Publication of Papers:</strong> Papers that meet the conference requirements will be published 
                                     in the academic journal of Salahaddin University-Erbil, Zanco for Pure and Applied Sciences, which is 
-                                    indexed by the Ministry of Higher Education in Iraq and Kurdistan. It is also indexed in a diverse range of international databases (DOAJ, Google Scholar, Crossref, etc.) and 
-                                    is presently undergoing evaluation for inclusion in Scopus.</li>
+                                    indexed by the Ministry of Higher Education in Iraq and Kurdistan. It is also indexed in a diverse range of international databases (Scopus, DOAJ, Google Scholar, Crossref, etc.).</li>
                                         
                                 </ul>
                             </div>
@@ -140,7 +140,7 @@
                             <div class="conference-overview">
                                 <ul>
                                     <li><strong>Language:</strong> English</li>
-                                    <li><strong>Article Length:</strong> 4-8 pages inclusive</li>
+                                    <li><strong>Article Length:</strong> 5-20 pages inclusive</li>
                                     <li><strong>Number of Papers:</strong> Each author can present a maximum of two
                                         papers.
                                         Additional papers require registration of accompanying co-author(s).</li>
@@ -174,10 +174,10 @@
                                         class="date"><strong>1 May 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Notification of Acceptance Ends</span> <span
                                         class="date"><strong>15 Sep 2024</strong></span></li>
-                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Opens</span> <span class="date"><strong>1
-                                            July 2024</strong></span></li>
+                                <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Opens</span> <span class="date"><strong>20
+                                            Septembr 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Registration Deadline</span> <span
-                                        class="date"><strong>30 Sep 2024</strong></span></li>
+                                        class="date"><strong>10 October 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Program Announcement</span> <span
                                         class="date"><strong>15 Oct 2024</strong></span></li>
                                 <li><span class="description"><span class="bull">&bull;&nbsp; </span> Conference Starts</span> <span class="date"><strong>30
@@ -215,7 +215,7 @@
                             <p><strong>Publication of Papers:</strong>Papers demonstrating merit will find publication in Zanco Journal 
                             of Pure and Applied Sciences: the Scientific Journal of Salahaddin University-Erbil. This academic journal is showcased in the list of 
                             publications endorsed by the Ministries of Higher Education in Iraq and Kurdistan. Furthermore, it is indexed across a diverse array of 
-                            international databases (DOAJ, Google Scholar, Crossref, etc.) and is presently undergoing evaluation for inclusion in Scopus.</p>
+                            international databases (Scopus, DOAJ, Google Scholar, Crossref, etc.)</p>
                             <p><Strong> Submission</Strong><p>Once your article is prepared, please utilize the provided link in <strong>Submission Section</strong> to submit the paper. 
                             You will receive an automated email confirming the successful submission. Subsequently, within a month's time, 
                             you can anticipate receiving another email regarding the acceptance for presentation at the conference, potential revisions, 

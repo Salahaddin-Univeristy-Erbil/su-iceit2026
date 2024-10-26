@@ -110,7 +110,7 @@
                         <section class="newsletter">
                             <h2>Erbil</h2>
                             <p>
-                             
+                             <span style="color: red;">Updated on 12 September 2024, at 16:20 PM.</span>
                             <a href="https://www.hawlergov.org/app/en">Erbil</a> serves as the capital of the Kurdistan Region of Iraq, 
                             recognized by UNESCO as the world's oldest continuously inhabited city. 
                             Dating back at least 6,000 years, the city has maintained a vibrant existence 
@@ -138,8 +138,8 @@
                             The visa application process is conducted online through the official <a href="https://gov.krd">gov.krd</a>  portal. 
                             Additionally, a list of countries eligible for visa-on-arrival can be found at <a href="https://visit.gov.krd">visit.gov.krd</a>. 
                             For any inquiries or assistance regarding visa arrangements, please feel free to reach out to us at 
-                            <a href="mailto:info@iceit2024.org">info@iceit2024.org</a>
-                             (or you may contact the conference general chair, Prof. Ibrahim Hamarash, 
+                            <a href="mailto:info@iceit2024.org">iceit2024@su.edu.krd</a>
+                             (or you may contact the conference chair, Prof. Ibrahim Hamarash, 
                             directly via WhatsApp at <a href="tel:+9647704451357">+9647704451357</a>).
                         </section>
                     
@@ -151,7 +151,7 @@
                             The visa application process is conducted online through the official <a href="https://gov.krd">gov.krd</a>  portal. 
                             Additionally, a list of countries eligible for visa-on-arrival can be found at <a href="https://visit.gov.krd">visit.gov.krd</a>. 
                             For any inquiries or assistance regarding visa arrangements, please feel free to reach out to us at 
-                            <a href="mailto:info@iceit2024.org">info@iceit2024.org</a>
+                            <a href="mailto:info@iceit2024.org">iceit2024@su.edu.krd</a>
                              (or you may contact the conference general chair, Prof. Ibrahim Hamarash, 
                             directly via WhatsApp at <a href="tel:+9647704451357">+9647704451357</a>).
                         </section>                    
@@ -166,7 +166,7 @@
                 <section class="conference-registration">
                     <h2>Hotels and Accommodation</h2>
                     Outstanding hotels offering the best prices are located in close proximity to the conference venue at the Cultural Centre of Salahaddin University-Erbil. Should you require assistance with accommodations, feel free to reach out to us at 
-                    <a href="mailto:info@iceit2024.org">info@iceit2024.org</a>.
+                    <a href="mailto:info@iceit2024.org">info@iceit2024.org</a>, or you may contact the conference chair at ibrahim.hamarash@su.edu.krd.
                 </section>
 
                 <section class="conference-registration">

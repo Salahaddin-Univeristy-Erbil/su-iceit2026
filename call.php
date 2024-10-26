@@ -80,6 +80,8 @@
 
 
                         <section class="topics">
+                            <span style="color: red;">Updated on 10 September 2024, at 10:20 AM.</span>
+                            
                             <h2>Conference Topics</h2>
                             <p>ICEIT 2024, organized by the College of Engineering at Salahaddin University-Erbil,
                                 stands as the flagship conference for engineering and technology in the Kurdistan region
@@ -94,28 +96,30 @@
                                 <li>Geomatics and Survey Engineering</li>
                                 <li>Electrical and Computer Engineering</li>
                                 <li>Power and Renewable Energy Systems Engineering</li>
-                                <li>Automation, Control, Robotics and Industrial Engineering</li>
-                                <li>Electronics and Communication Engineering</li>
+                                <li>Automation, Control, Robotics Engineering</li>
+                                <li>Communication Engineering</li>
+                                <li>Electronics Engineering</li>                                
                                 <li>Photonics and Optoelectronics Engineering</li>
+                                <li>Industrial Engineering</li>                                
                                 <li>Aerospace Engineering</li>
                                 <li>Biomedical Engineering</li>
                                 <li>Software Engineering</li>
-                                  <li>Software Engineering</li>
-                                <li>Software Engineering</li>
-                                <li>Software Engineering</li>
-                              
-                                
-                                
-                                <li>Water Resources and Environmental Engineering</li>
+                                <li>Artificial Intelligence</li>                                
+                                <li>Internet of Things Engineering</li>
+                                <li>Cybersecurity Engineering</li>
+                                <li>Water Resources Engineering</li>
+                                <li>Environmental Engineering</li>                                
                                 <li>Sustainability Engineering</li>
                                 <li>Petrolium and Petrochemical Engineering</li>
                                 <li>Chemical Engineering</li>
                                 <li>Mechanical and Automotive Engineering</li>
                                 <li>Production and Materials Engineering</li>
                                 <li>Data Science and Engineering</li>
+                                <li>Big Data and Cloud Computing</li>
                                 <li>Engineering Management</li>
                                 <li>Risk and Reliability Engineering</li>
                                 <li>Information Technology and Computer Science</li>
+                                <li>Machine Learning Applications in Engineering</li>                                
                                 <li>Humanitarian Engineering</li>
                             </ul>
 
@@ -123,7 +127,7 @@
 
                         <section class="submission-guidelines">
                             <h2>Paper Formatting and Submission Guidelines</h2>
-                            <p>Papers must be from 4-8 pages inclusive, please refer to the <strong>For Authors</strong> or <strong> Submission</strong> sections for guidelines on paper 
+                            <p>Papers must be from 6-20 pages inclusive, please refer to the <strong>For Authors</strong> or <strong> Submission</strong> sections for guidelines on paper 
                             formatting and submission.</p>
                         </section>
 

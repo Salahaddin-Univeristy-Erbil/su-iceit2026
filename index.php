@@ -167,7 +167,7 @@
                 'description' => 'Camera-Ready Submission Deadline',
             ],
             [
-                'date' => '1- 30 September 2024',
+                'date' => '20 September - 10 October 2024',
                 'description' => 'Registration',
             ],
             [
@@ -215,6 +215,18 @@
                 'target' => 'sue',
                 'img_src' => 'img/sue-logo.png',
                 'alt' => 'SUE Logo',
+            ],            
+            [
+                'href' => 'https://www.massgroupholding.com/English/',
+                'target' => 'mas',
+                'img_src' => 'img/mas.png',
+                'alt' => 'MAS Logo',
+            ],            
+            [
+                'href' => 'https://www.unigaz.net/en',
+                'target' => 'gaz',
+                'img_src' => 'img/unigaz.png',
+                'alt' => 'UniGaz Logo',
             ],
         ];
         ?>

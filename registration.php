@@ -108,6 +108,7 @@
                     <div class="content">
                         <!-- Newsletter Subscription Section -->
                         <section class="newsletter">
+ 
                             <h2>Newsletter Subscription</h2>
                             <p>Sign up now to receive our newsletter and stay updated on the latest news and
                                 announcements.</p>
@@ -116,6 +117,7 @@
 
                         <!-- Conference Registration Section -->
                         <section class="conference-registration">
+                                <span style="color: red;">Updated on 12 September 2024, at 16:20 p.m.</span>
                             <h2>Conference Registration</h2>
                             <p>ICEIT 2024 aims to cultivate a vibrant academic and social environment for our attendees.
                                 The conference encompasses research presentation sessions, an Artificial Intelligence
@@ -125,7 +127,7 @@
                                 Dean of the College of Engineering, and our sponsors.</p>
                             <p>The registration fees cover attendance at all sessions, the workshop, and the engineering
                                 exhibition, as well as all tea breaks and meals, the gala dinner, and the publication of
-                                papers in Zanco Journal or Salahaddin Conference Proceedings Lecture Notes. The fees
+                                papers in Zanco Journal (indexed in Scopus, Google Scolar, DOAJ, ... etc) or Salahaddin Conference Proceedings Lecture Notes. The fees
                                 are as follows:</p>
 
                             <ul>
@@ -133,7 +135,11 @@
                                 <li>Student paper: 75,000 IQD (50 US$)</li>
                                 <li>Participants without a paper: 50,000 IQD (35 US$)</li>
                             </ul>
-                            <p class="register-soon">Register: Coming soon</p>
+                            <p class="register-soon">Register: Payments through Qi Services (Al Rafidain Bank) and  FIB card payments are coming soon.</p>
+                            <p> Alternatively, 
+                            researchers can register in person at the conference venue on October 30th, at 9:00 AM, at the Cultural Centre of Salahaddin University-Erbil.</p>
+                        <p>Please feel free to contact us with any inquiries at iceit2024@su.edu.krd</p>
+                        
                         </section>
                     </div>
 

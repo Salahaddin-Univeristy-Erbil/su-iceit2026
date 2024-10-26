@@ -72,6 +72,7 @@
         </div>
 
                         <section class="welcome-message">
+                           <span style="color: red;">Updated on 10 September 2024, at 10:20 AM.</span>
                             <p>We are excited to announce the 3rd edition of the International Conference on Engineering
                                 and Innovative Technology (ICEIT), organized by the College of Engineering at Salahaddin
                                 University-Erbil. This prestigious event is scheduled to be held on-site on October
@@ -96,7 +97,7 @@
                                 most attractive destinations in the Middle East.</p>
                             <p>We invite you to submit your papers for consideration in ICEIT 2024. Share your research
                                 and contribute to the academic excellence and cultural richness of this conference. We
-                                look forward to extending a warm welcome to you in Erbil this September.</p>
+                                look forward to extending a warm welcome to you in Erbil this October.</p>
 
                             <p class="signed">Yours sincerely,</p>
                             <p class="signed">Professor Ibrahim Hamarash, PhD.</p>
