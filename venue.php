@@ -142,19 +142,7 @@
                              (or you may contact the conference chair, Prof. Ibrahim Hamarash, 
                             directly via WhatsApp at <a href="tel:+9647704451357">+9647704451357</a>).
                         </section>
-                    
-                        <section class="conference-registration">
-                            <h2>Visa</h2>
-                            The Kurdistan Regional Government enforces specific entry regulations exclusively 
-                            through Erbil International Airport and Sulaimani International Airport. 
-                            Visas issued are valid solely for the territory governed by the Kurdistan Regional Government. 
-                            The visa application process is conducted online through the official <a href="https://gov.krd">gov.krd</a>  portal. 
-                            Additionally, a list of countries eligible for visa-on-arrival can be found at <a href="https://visit.gov.krd">visit.gov.krd</a>. 
-                            For any inquiries or assistance regarding visa arrangements, please feel free to reach out to us at 
-                            <a href="mailto:info@iceit2024.org">iceit2024@su.edu.krd</a>
-                             (or you may contact the conference general chair, Prof. Ibrahim Hamarash, 
-                            directly via WhatsApp at <a href="tel:+9647704451357">+9647704451357</a>).
-                        </section>                    
+                                   
                     
 
                     <section class="conference-registration">
