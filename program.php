@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ICEIT2024-Speakers</title>
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+      <link rel="stylesheet" href="css/page-style.css">
+      <link rel="stylesheet" href="css/footer.css">
+      <style>
+         .content {
+         font-family: Arial, sans-serif;
+         line-height: 2;
+         color: #333;
+         margin: 30px !important;
+         padding: 0;
+         max-width: 1170px;
+         margin: auto;
+         padding: 15px;
+         }
+         .welcome-message {
+         background-color: #fff;
+         padding: 20px;
+         margin: 20px 0;
+         border-radius: 5px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+      </style>
+
+      <style>
+
+         h1, h2 {
+         color: #b22a27; 
+         }
+
+         h1 {
+         font-size: 2em;
+         margin-bottom: 20px;
+         }
+
+         h2 {
+         font-size: 1.5em;
+         color: #b22a27; 
+         margin-top: 40px;
+         }
+
+         /* Section Styling */
+         .section {
+         margin-bottom: 40px;
+         }
+
+         /* Session Header */
+         .session-header {
+         background-color: #b22a27; 
+         color: white;
+         padding: 10px;
+         font-size: 1.25em;
+         margin: 0;
+         border-radius: 5px;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+         }
+
+         /* Card Style */
+         .card {
+         background-color: white;
+         border: 1px solid #ddd;
+         border-radius: 8px;
+         margin: 15px 0;
+         padding: 20px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         transition: 0.3s;
+         }
+
+         .card:hover {
+         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+         }
+
+         /* Card Headings */
+         .card h3 {
+         margin-top: 0;
+         font-size: 1.1em;
+         color: #333;
+         }
+
+         /* Card Text */
+         .card p {
+         margin: 8px 0;
+         font-size: 1em;
+         color: #555;
+         }
+
+         /* Bold Text */
+         .card b {
+         color: #000;
+         }
+
+         /* Time Styling */
+         .time {
+         color: #b22a27; /* Dark red time color */
+         font-weight: bold;
+         }
+
+         /* Day Header */
+         .day-header {
+         font-size: 1.5em;
+         color: #b22a27; /* Dark red */
+         margin-bottom: 20px;
+         }
+
+         /* Room Header */
+         .room-header {
+         font-size: 1.25em;
+         color: #b22a27; /* Dark red */
+         margin: 15px 0 5px;
+         }
+
+         /* Session Chair */
+         .session-chair {
+         font-size: 1em;
+         color: #777;
+         margin-bottom: 15px;
+         }
+
+
+
+      </style>
+
+   </head>
+   <body>
+      <?php include 'components/page-header.php'; ?>
+      <?php include 'components/page-card.php'; ?>
+      <div class="container">
+         <div class="row">
+            <div class="main-container">
+               <div id="main" class="main-column">
+                  <div class="header">Conference Program</div>
+                  <div class="content">
+
+
+
+                                    <!-- Day 1 Header -->
+                     <div class="section">
+                        <p class="day-header"><b>Day 1: Wednesday, October 30, 2024</b></p>
+
+                        <!-- Registration -->
+                        <div class="card">
+                           <p class="time"><b>8:30 AM - 9:45 AM</b></p>
+                           <p><b>Registration</b> at Cultural Center of Salahaddin University-Erbil, Engineering Campus, Building 6</p>
+                        </div>
+
+                        <!-- Opening Ceremony -->
+                        <div class="card">
+                           <p class="time"><b>9:30 AM - 10:00 AM</b></p>
+                           <p>Arriving at Kochar Berkar Hall for the Opening Ceremony</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>10:00 AM - 10:45 AM</b></p>
+                           <p>Opening Ceremony</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>10:45 AM - 11:00 AM</b></p>
+                           <p>Coffee Break</p>
+                        </div>
+                        </div>
+
+                        <!-- Session 1 - Room 1 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 1: Civil and Water Resources Engineering</h2>
+                        <p class="room-header"><b>Room 1</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Jehan M. Sheikh Suleimany</p>
+
+                        <div class="card">
+                           <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                           <p><b>Paper Title:</b> Computation Of Hydraulic Performance For Ogee Spillway With Bucket Type Energy Dissipater Using CFD</p>
+                           <p><b>Presenter:</b> Pshtiwan Othman Zaid</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                           <p><b>Paper Title:</b> Trend And Homogeneity Analysis Of Rainfall Data For Duhok City, Kurdistan Region, Iraq</p>
+                           <p><b>Presenter:</b> Evan Hajani</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:45 AM - 12:00 PM</b></p>
+                           <p><b>Paper Title:</b> G Integration With AHP And Frequency Ratio Methodologies For Landslide Susceptibility Mapping In Choman District, Iraq</p>
+                           <p><b>Presenter:</b> Kaifi Chomani</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:00 PM - 12:15 PM</b></p>
+                           <p><b>Paper Title:</b> Modern Methods And Artificial Intelligence In Stormwater Harvesting As Sustainable Solutions</p>
+                           <p><b>Presenter:</b> Khalat Khalid Muhammed</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:15 PM - 12:30 PM</b></p>
+                           <p><b>Paper Title:</b> Issues Of Water And Climate Change In The Kurdistan Region And Iraq. A Review Study</p>
+                           <p><b>Presenter:</b> Jehan M. Sheikh Suleimany</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:45 PM - 2:30 PM</b></p>
+                           <p><b>Lunch:</b> Bus transportation to the restaurant</p>
+                        </div>
+                        </div>
+
+                        <!-- Session 1 - Room 2 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 1: Electrical and Computer Engineering</h2>
+                        <p class="room-header"><b>Room 2</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Fadhil Toufick Aula</p>
+
+                        <div class="card">
+                           <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                           <p><b>Paper Title:</b> Analysis And Infrastructure Suggestion For A Reactive Emergency Incident Management System</p>
+                           <p><b>Presenter:</b> Wrya Monnet</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                           <p><b>Paper Title:</b> Deep Learning Based Resource Allocation In NOMA System: A Review</p>
+                           <p><b>Presenter:</b> Yasser A. Al-Khafaje</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:45 AM - 12:00 PM</b></p>
+                           <p><b>Paper Title:</b> A Design-Agnostic Framework For The Salvage And Reverse-Engineering Of Unmanned Aerial Vehicles</p>
+                           <p><b>Presenter:</b> Thoalfaqqar Sabah Saleh</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:00 PM - 12:15 PM</b></p>
+                           <p><b>Paper Title:</b> Review Article: Big Data Analytics For Smart Cities</p>
+                           <p><b>Presenter:</b> Honar Mohammed</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:15 PM - 12:30 PM</b></p>
+                           <p><b>Paper Title:</b> Accelerating Imperceptible Attack Detection In Smart Transportation: A Parallel Computing Approach</p>
+                           <p><b>Presenter:</b> Hadi Hasan Rashid</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:45 PM - 2:30 PM</b></p>
+                           <p><b>Lunch:</b> Bus transportation to the restaurant</p>
+                        </div>
+                        </div>
+
+                        <!-- Session 1 - Room 3 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 1: Civil Engineering</h2>
+                        <p class="room-header"><b>Room 3</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Assist. Prof. Dr. Dlshad Kakasoor Jaf</p>
+
+                        <div class="card">
+                           <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                           <p><b>Paper Title:</b> A Review Of 3D Concrete Printing In Construction</p>
+                           <p><b>Presenter:</b> Salman Mustafa Salih Zebari</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                           <p><b>Paper Title:</b> Finite Element Analysis Of Concrete Slabs Under Torsion</p>
+                           <p><b>Presenter:</b> Ghassan M. Werdinaa</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>11:45 AM - 12:00 PM</b></p>
+                           <p><b>Paper Title:</b> Strengthening A Thin Crust Of Lightweight Pumice Aggregate In Low Strength Concrete</p>
+                           <p><b>Presenter:</b> Farhad R. Karim</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:00 PM - 12:15 PM</b></p>
+                           <p><b>Paper Title:</b> Identification Of Barriers And Strategies For Better Safety Practices In Construction Projects</p>
+                           <p><b>Presenter:</b> Bnar Noaman Hamadameen</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>12:45 PM - 2:30 PM</b></p>
+                           <p><b>Lunch:</b> Bus transportation to the restaurant</p>
+                        </div>
+                        </div>
+
+
+                                    <!-- Session 2 - Room 1 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 2: Artificial Intelligence</h2>
+                        <p class="room-header"><b>Room 1</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Prof. Dr. Amin Salih Mohammed Kakshar (07504665377)</p>
+
+                        <div class="card">
+                           <p class="time"><b>02:45 PM - 03:00 PM</b></p>
+                           <p><b>Paper Title:</b> Examining Short-Term Memory Loss And Adverse Reactions Following Vaccination In Prolonged Covid-19 Patients In The Kurdistan Region Of Iraq</p>
+                           <p><b>Presenter:</b> Aveen Kakameen</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:00 PM - 03:15 PM</b></p>
+                           <p><b>Paper Title:</b> Metaheuristic Algorithms In Optimization And Its Application: A Review</p>
+                           <p><b>Presenter:</b> Heba Mohammed Fadhil</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:15 PM - 03:30 PM</b></p>
+                           <p><b>Paper Title:</b> Enhanced Human Activity Recognition (HAR) With IMU Sensors In Smartphones: Insights From Machine Learning Models</p>
+                           <p><b>Presenter:</b> Yara Muuyad Tahir</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:30 PM - 03:45 PM</b></p>
+                           <p><b>Paper Title:</b> Position-Aware Neural Graph Collaborative Filtering To Resolve The Sparsity Problem In Recommender Systems</p>
+                           <p><b>Presenter:</b> Shahla Havas</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:45 PM - 04:00 PM</b></p>
+                           <p><b>Paper Title:</b> Provision: A Generalizable Approach To The Ranking Of Credible Twitter Users</p>
+                           <p><b>Presenter:</b> Rojiar Pir Mohammadiani</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:00 PM - 04:15 PM</b></p>
+                           <p><b>Break</b></p>
+                        </div>
+                        </div>
+
+                        <!-- Session 2 - Room 2 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 2: Architectural Engineering</h2>
+                        <p class="room-header"><b>Room 2</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Assist. Prof. Dr. Hamid Turki Haykal (07517825672)</p>
+
+                        <div class="card">
+                           <p class="time"><b>02:45 PM - 03:00 PM</b></p>
+                           <p><b>Paper Title:</b> Impacts Of Street Connectivity On Social Interaction In Erbil City's Commercial Areas</p>
+                           <p><b>Presenter:</b> Zhela Shorsh Ahmed</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:00 PM - 03:15 PM</b></p>
+                           <p><b>Paper Title:</b> A Study Of The Continuity Of Architectural Identity Through Visibility Analysis: Houses In Erbil City (1900-2020)</p>
+                           <p><b>Presenter:</b> Dr. Binyad Maruf Abdulkadir</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:15 PM - 03:30 PM</b></p>
+                           <p><b>Paper Title:</b> Analysis Of Lighting Performance In The Architecture Design Studio: The Case Of Architecture Department, Salahaddin University-Erbil</p>
+                           <p><b>Presenter:</b> Dr. Hardi K. Abdulla</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:30 PM - 03:45 PM</b></p>
+                           <p><b>Paper Title:</b> Using VR In Assessing The Impact Of Mosque Typomorphology On Worshipers' Visual Comfort</p>
+                           <p><b>Presenter:</b> Dr. Lana Abubakr Ali</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>03:45 PM - 04:00 PM</b></p>
+                           <p><b>Paper Title:</b> Towards Parks For All: A Case Of The Manara Park, Erbil, Iraq</p>
+                           <p><b>Presenter:</b> Dr. Salem Mukhtar Tarhuni</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:00 PM - 04:15 PM</b></p>
+                           <p><b>Break</b></p>
+                        </div>
+                        </div>
+
+                        <!-- Session 3 - Room 1 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 3: Electrical and Computer Engineering</h2>
+                        <p class="room-header"><b>Room 1</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Ismael Kareem Saeed (07504485865)</p>
+
+                        <div class="card">
+                           <p class="time"><b>04:15 PM - 04:30 PM</b></p>
+                           <p><b>Paper Title:</b> Developing IT Service Management In Higher Education Institutions: A Case Study Of ITIL Implementation In Universities In The Kurdistan Region Of Iraq</p>
+                           <p><b>Presenter:</b> Haneen Khalid Dany</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:30 PM - 04:45 PM</b></p>
+                           <p><b>Paper Title:</b> Community Detection By Elpmeans: An Unsupervised Approach That Uses Laplacian Centrality And Clustering</p>
+                           <p><b>Presenter:</b> Rojiar Pir Mohammadiani</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:45 PM - 05:00 PM</b></p>
+                           <p><b>Paper Title:</b> Machine Learning Models For Predicting Power Output In Gas Turbines: A Case Study From Perdawood Power Station, Erbil, Kurdistan Region, Iraq</p>
+                           <p><b>Presenter:</b> Asaad Saber Hamad Ameen</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:00 PM - 05:15 PM</b></p>
+                           <p><b>Paper Title:</b> Multi-Factor Classification Using Deep Learning For X-Ray Image Classification</p>
+                           <p><b>Presenter:</b> Alaa Adham Ibrahim</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:15 PM - 05:30 PM</b></p>
+                           <p><b>Paper Title:</b> Cryptanalyze Shift Register Based-Stream Cipher Using Innovative DNA Trees Clustering Model</p>
+                           <p><b>Presenter:</b> Basim Sahar Yaseen</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:30 PM - 06:30 PM</b></p>
+                           <p><b>Free Time</b></p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>07:00 PM - 09:30 PM</b></p>
+                           <p><b>Gala Dinner:</b> Buses depart from the Conference Venue at 06:30 PM</p>
+                        </div>
+                        </div>
+
+                        <!-- Session 3 - Room 2 -->
+                        <div class="section">
+                        <h2 class="session-header">Session 3: Civil Engineering</h2>
+                        <p class="room-header"><b>Room 2</b></p>
+                        <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Mohammed Ali Ihsan (0750 316 2544)</p>
+
+                        <div class="card">
+                           <p class="time"><b>04:15 PM - 04:30 PM</b></p>
+                           <p><b>Paper Title:</b> Preliminary Investigation On Anisotropy And Non-Homogeneity Of Soil-Cement Slurry As A Backfill Material</p>
+                           <p><b>Presenter:</b> Dillshad K.H. Bzeni</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:30 PM - 04:45 PM</b></p>
+                           <p><b>Paper Title:</b> Estimation Of Soaked California Bearing Ratio Using Compaction Characteristics And Liquid Limit For Cohesive Soils In Iraq</p>
+                           <p><b>Presenter:</b> Younis M. Alshkane</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>04:45 PM - 05:00 PM</b></p>
+                           <p><b>Paper Title:</b> Use Of Construction Waste Materials In Landfill For Residual Building: A Case Study</p>
+                           <p><b>Presenter:</b> Ahmed M. Hasan</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:00 PM - 05:15 PM</b></p>
+                           <p><b>Paper Title:</b> Greenhouse Gases Limits Assessment In Erbil City-Iraq</p>
+                           <p><b>Presenter:</b> Sarwah Othman Ismael</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:15 PM - 05:30 PM</b></p>
+                           <p><b>Paper Title:</b> Applications Of Different Types Of Cement In Construction Industries And Their Environmental Impacts: A Review</p>
+                           <p><b>Presenter:</b> Payam Ismael Abdulrahman</p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>05:30 PM - 06:30 PM</b></p>
+                           <p><b>Free Time</b></p>
+                        </div>
+
+                        <div class="card">
+                           <p class="time"><b>07:00 PM - 09:30 PM</b></p>
+                           <p><b>Gala Dinner:</b> Buses depart from the Conference Venue at 06:30 PM</p>
+                        </div>
+                     </div> 
+
+
+
+                     <!-- Day 2 Header -->
+                     <div class="section">
+                     <p class="day-header"><b>Day 2: Thursday, October 31, 2024</b></p>
+                     </div>
+
+                     <!-- Session 4 - Room 1 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 4: Mechanical Engineering</h2>
+                     <p class="room-header"><b>Room 1</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Ramadhan Hussein Gardi (07504655977)</p>
+
+                     <div class="card">
+                        <p class="time"><b>09:00 AM - 09:15 AM</b></p>
+                        <p><b>Paper Title:</b> Comparing The Performance of Active And Passive Suspension Systems For A ¼ Vehicle Using Matlab/Simulation</p>
+                        <p><b>Presenter:</b> Ali I. Al-Zughaibi</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:15 AM - 09:30 AM</b></p>
+                        <p><b>Paper Title:</b> Addition Effect Of Partially Stabilized Zirconia (Zro2.Y2o3) Filler On Some Properties Of Unsaturated Polyester Resin Base Matrix Composite For In-Vivo Applications</p>
+                        <p><b>Presenter:</b> Manar Abd Ul-Jabbar Najim</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:30 AM - 09:45 AM</b></p>
+                        <p><b>Paper Title:</b> Investigation Of The Chemical Composition Of Hazardous Material In Playmates And Toys In The Kurdish Region</p>
+                        <p><b>Presenter:</b> Abdulkader Ali Abdulkader Kadauw</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:45 AM - 10:00 AM</b></p>
+                        <p><b>Paper Title:</b> The Effects Of Adding MWCNTs On Fatigue Properties Of Epoxy And Composites Reinforced With Pre-Stressed Fiber</p>
+                        <p><b>Presenter:</b> Ali Sadiq Alithari</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:00 AM - 10:15 AM</b></p>
+                        <p><b>Paper Title:</b> Study The Effect Of Nano Vibration Amplitude On The Electromagnetic Interaction Of CMC Structure</p>
+                        <p><b>Presenter:</b> Alaa Raad Hussein</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:15 AM - 10:30 AM</b></p>
+                        <p><b>Break</b></p>
+                     </div>
+                     </div>
+
+                     <!-- Session 4 - Room 2 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 4: Electrical Engineering</h2>
+                     <p class="room-header"><b>Room 2</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Hilmi F. Ameen (07503615800)</p>
+
+                     <div class="card">
+                        <p class="time"><b>09:00 AM - 09:15 AM</b></p>
+                        <p><b>Paper Title:</b> Using MDWT2 of CNN Model for Early Breast Cancer Diagnosis</p>
+                        <p><b>Presenter:</b> Sema Nizam</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:15 AM - 09:30 AM</b></p>
+                        <p><b>Paper Title:</b> Effect Of NR-LDPC Codes On The Uplink Massive MIMO</p>
+                        <p><b>Presenter:</b> Layla M. Salih</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:30 AM - 09:45 AM</b></p>
+                        <p><b>Paper Title:</b> Five Phase Linear Generator</p>
+                        <p><b>Presenter:</b> Aslan Sa. Jalal</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:45 AM - 10:00 AM</b></p>
+                        <p><b>Paper Title:</b> Feasibility Study And Economic Consideration Of Rooftop PV System For Replacing Diesel Generators In Erbil City</p>
+                        <p><b>Presenter:</b> Zaman S. Ahmed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:00 AM - 10:15 AM</b></p>
+                        <p><b>Paper Title:</b> A Comprehensive Literature Review Of Wound Rotor Induction Motor Drive System By Rotor Impedance Variation</p>
+                        <p><b>Presenter:</b> Bekhal Abdulla</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:15 AM - 10:30 AM</b></p>
+                        <p><b>Break</b></p>
+                     </div>
+                     </div>
+
+                     <!-- Session 4 - Room 3 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 4: Architectural Engineering</h2>
+                     <p class="room-header"><b>Room 3</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Prof. Dr. Husein Ali Husein (07504703157)</p>
+
+                     <div class="card">
+                        <p class="time"><b>09:00 AM - 09:15 AM</b></p>
+                        <p><b>Paper Title:</b> The Strategic Value Of Digital Architecture Central Bank Of Iraq (CBI) In Al-Jadriyha: A Case Study</p>
+                        <p><b>Presenter:</b> Shahad Abdulabbass Hammoodi</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:15 AM - 09:30 AM</b></p>
+                        <p><b>Paper Title:</b> Biomimicry-Based Approach To Enhance Energy Efficiency In The Office Building</p>
+                        <p><b>Presenter:</b> Twana R. Fattah</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:30 AM - 09:45 AM</b></p>
+                        <p><b>Paper Title:</b> Using Digital Communication For Transportation System In Smart Sustainable Cities</p>
+                        <p><b>Presenter:</b> Saya Jamal Rashid</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>09:45 AM - 10:00 AM</b></p>
+                        <p><b>Paper Title:</b> Optimization Of The Compatible Refitting Measures To Enhance The Environmental Performance Of Heritage Buildings</p>
+                        <p><b>Presenter:</b> Fenk D. Miran</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:00 AM - 10:15 AM</b></p>
+                        <p><b>Paper Title:</b> The Role Of Digital Technologies In The Sustainable Preventive Preservation Of Heritage And Historical Sites</p>
+                        <p><b>Presenter:</b> Ghassan Hassan Hammoud</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:15 AM - 10:30 AM</b></p>
+                        <p><b>Break</b></p>
+                     </div>
+                     </div>
+
+                     <!-- Session 5 - Room 1 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 5: Artificial Intelligence</h2>
+                     <p class="room-header"><b>Room 1</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dr. Gullanar Mohammed Hadi (07503108228)</p>
+
+                     <div class="card">
+                        <p class="time"><b>10:30 AM - 10:45 AM</b></p>
+                        <p><b>Paper Title:</b> Heart Disease Prediction Using Deep Learning: A Case Study Of Erbil, Kurdistan, Iraq</p>
+                        <p><b>Presenter:</b> Hangaw Q. Ahmed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:45 AM - 11:00 AM</b></p>
+                        <p><b>Paper Title:</b> Age And Gender Prediction Using Deep Learning Algorithms On Human Face Images</p>
+                        <p><b>Presenter:</b> Noor Kamal Al-Qazzaz</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:00 AM - 11:15 AM</b></p>
+                        <p><b>Paper Title:</b> Adaptive Resource Scaling Algorithm For Serverless Computing Applications</p>
+                        <p><b>Presenter:</b> Sadoon Azizi</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                        <p><b>Paper Title:</b> Machine Learning For Diabetes Diagnosis: Insights From A Novel Dataset And Algorithmic Performance</p>
+                        <p><b>Presenter:</b> Salar Ameen Raheem</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                        <p><b>Paper Title:</b> Predicting First-Year Engineering Student Dropout Using Data Mining: A Case Study At Salahaddin University-Erbil</p>
+                        <p><b>Presenter:</b> Nian Khidr Aziz</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>12:30 PM - 01:00 PM</b></p>
+                        <p><b>Closing Remarks (Kochar Berkar Hall)</b></p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>01:15 PM - 03:00 PM</b></p>
+                        <p><b>Lunch:</b> Buses depart from the Conference Venue at 01:15 PM</p>
+                     </div>
+                     </div>
+
+                     <!-- Session 5 - Room 2 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 5: Civil Engineering</h2>
+                     <p class="room-header"><b>Room 2</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Asst. Prof. Dillshad Khidhir Hamad Amen (0754486419)</p>
+
+                     <div class="card">
+                        <p class="time"><b>10:30 AM - 10:45 AM</b></p>
+                        <p><b>Paper Title:</b> Enhancing Transportation Efficiency With The Aid Of GNSS-RTN Technology</p>
+                        <p><b>Presenter:</b> Mohammed Anwer Jassim</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:45 AM - 11:00 AM</b></p>
+                        <p><b>Paper Title:</b> Effect Of Internal Curing On Concrete Properties</p>
+                        <p><b>Presenter:</b> Waleed A.Waryosh</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:00 AM - 11:15 AM</b></p>
+                        <p><b>Paper Title:</b> Reverse Osmosis Desalination Plants Performance And Improvement: Review</p>
+                        <p><b>Presenter:</b> Haider A. Khanfar</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                        <p><b>Paper Title:</b> The Impact Of Recycled Concrete Aggregate On The Concrete's Properties: A Comparative Study</p>
+                        <p><b>Presenter:</b> Zhavin Fakhralddin Mohammed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                        <p><b>Paper Title:</b> Influence Of Pier Geometry On Flow Characteristics Using CFD</p>
+                        <p><b>Presenter:</b> Azheen Karim Fatah</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>12:30 PM - 01:00 PM</b></p>
+                        <p><b>Closing Remarks (Kochar Berkar Hall)</b></p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>01:15 PM - 03:00 PM</b></p>
+                        <p><b>Lunch:</b> Buses depart from the Conference Venue at 01:15 PM</p>
+                     </div>
+                     </div>
+
+                     <!-- Session 5 - Room 3 -->
+                     <div class="section">
+                     <h2 class="session-header">Session 5: Solar Energy</h2>
+                     <p class="room-header"><b>Room 3</b></p>
+                     <p class="session-chair"><b>Session Chair:</b> Prof. Dr. Iyd E. Maree (07507510700009)</p>
+
+                     <div class="card">
+                        <p class="time"><b>10:30 AM - 10:45 AM</b></p>
+                        <p><b>Paper Title:</b> An Experimentally Study Of The Effect Of Hot Water Flow Rate On Solar Collector Systems</p>
+                        <p><b>Presenter:</b> Azhar Kareem Mohammed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>10:45 AM - 11:00 AM</b></p>
+                        <p><b>Paper Title:</b> Optimizing Solar Integration And Power Flow Analysis For Enhanced Grid Performance In Sulaimani City</p>
+                        <p><b>Presenter:</b> Rebwar Omer Mohammed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:00 AM - 11:15 AM</b></p>
+                        <p><b>Paper Title:</b> Optimization Efficiency Of Solar-Powered Air Conditioning Systems: A Comprehensive Review</p>
+                        <p><b>Presenter:</b> Abdulghafor Mohammed Alhadithie</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:15 AM - 11:30 AM</b></p>
+                        <p><b>Paper Title:</b> Spectroscopic And Radiation Shielding Properties Of Er2o3 Nanoparticles Doped Silica Borotellurite Glasses</p>
+                        <p><b>Presenter:</b> Sawza Saadi Saeed</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>11:30 AM - 11:45 AM</b></p>
+                        <p><b>Paper Title:</b> Optimizing Ventilation Performance Of Rooftop Solar Chimneys: A Study On Design Parameters In Erbil City, Iraq</p>
+                        <p><b>Presenter:</b> Dara Khalid Khidhir</p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>12:30 PM - 01:00 PM</b></p>
+                        <p><b>Closing Remarks (Kochar Berkar Hall)</b></p>
+                     </div>
+
+                     <div class="card">
+                        <p class="time"><b>01:15 PM - 03:00 PM</b></p>
+                        <p><b>Lunch:</b> Buses depart from the Conference Venue at 01:15 PM</p>
+                     </div>
+                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <?php include 'components/footer.php'; ?>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

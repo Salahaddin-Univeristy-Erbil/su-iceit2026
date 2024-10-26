@@ -100,10 +100,10 @@
                     'link' => 'speakers.php',
                 ],
                 [
-                    'title' => 'Submission',
-                    'subtitle' => 'Online Submission Links and Guidelines',
-                    'img' => 'img/Paper-Submission.png',
-                    'link' => 'submission.php',
+                    'title' => 'Conference Program',
+                    'subtitle' => 'Detailed Schedule of Presentations and Keynotes',
+                    'img' => 'img/program.png',
+                    'link' => 'program.php',
                 ],
                 [
                     'title' => 'Registration',
