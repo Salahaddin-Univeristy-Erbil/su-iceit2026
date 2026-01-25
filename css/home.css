@@ -434,7 +434,7 @@ body {
 
 .overlay-button {
   position: absolute;
-  bottom: -35px;
+  bottom: 0px;
   /* Adjust to stay centered on line */
   /* Adjust as needed */
   left: 50%;
