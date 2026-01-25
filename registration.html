@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICEIT2024-Registration</title>
+    <title>SU-ICEIT2026-Registration</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="js/loader.js"></script>
     <style>
         h1 {
             color: #742d2c;
@@ -24,19 +25,19 @@
             background-color: #fff;
             line-height: 1.7;
             font-size: 1.3rem;
-            margin: 20px ;
+            margin: 20px;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         .newsletter p,
-        .conference-registration p{
+        .conference-registration p {
             font-size: 1.3rem;
 
         }
 
         .btn {
-            display: inline-block; 
+            display: inline-block;
             width: 100%;
             max-width: 200px;
             padding: 10px;
@@ -71,7 +72,8 @@
             font-style: italic;
             color: #d9534f;
         }
-        .form{
+
+        .form {
             width: 100%;
             text-align: center;
         }
@@ -80,20 +82,21 @@
             .container {
                 width: 100%;
             }
+
             .newsletter,
-        .conference-registration {
-            line-height: 1.5;
-            font-size: 1.3rem;
-            margin: 10px ;
-            padding: 10px;
-        }
+            .conference-registration {
+                line-height: 1.5;
+                font-size: 1.3rem;
+                margin: 10px;
+                padding: 10px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <?php include 'components/page-header.php'; ?>
-    <?php include 'components/page-card.php'; ?>
+    <div data-include="components/header.html"></div>
+    <div data-include="components/page-card.html"></div>
 
     <div class="container">
 
@@ -108,7 +111,7 @@
                     <div class="content">
                         <!-- Newsletter Subscription Section -->
                         <section class="newsletter">
- 
+
                             <h2>Newsletter Subscription</h2>
                             <p>Sign up now to receive our newsletter and stay updated on the latest news and
                                 announcements.</p>
@@ -117,9 +120,10 @@
 
                         <!-- Conference Registration Section -->
                         <section class="conference-registration">
-                                <span style="color: red;">Updated on 12 September 2024, at 16:20 p.m.</span>
+                            <span style="color: red;">Updated on 12 September 2026, at 16:20 p.m.</span>
                             <h2>Conference Registration</h2>
-                            <p>ICEIT 2024 aims to cultivate a vibrant academic and social environment for our attendees.
+                            <p>SU-ICEIT 2026 aims to cultivate a vibrant academic and social environment for our
+                                attendees.
                                 The conference encompasses research presentation sessions, an Artificial Intelligence
                                 workshop, an Engineering exhibition, Kurdish tea breaks, Kurdish cuisine, and a gala
                                 dinner featuring Kurdish music. We strive to keep the subscription fee as low as
@@ -127,7 +131,8 @@
                                 Dean of the College of Engineering, and our sponsors.</p>
                             <p>The registration fees cover attendance at all sessions, the workshop, and the engineering
                                 exhibition, as well as all tea breaks and meals, the gala dinner, and the publication of
-                                papers in Zanco Journal (indexed in Scopus, Google Scolar, DOAJ, ... etc) or Salahaddin Conference Proceedings Lecture Notes. The fees
+                                papers in Zanco Journal (indexed in Scopus, Google Scolar, DOAJ, ... etc) or Salahaddin
+                                Conference Proceedings Lecture Notes. The fees
                                 are as follows:</p>
 
                             <ul>
@@ -135,11 +140,13 @@
                                 <li>Student paper: 75,000 IQD (50 US$)</li>
                                 <li>Participants without a paper: 50,000 IQD (35 US$)</li>
                             </ul>
-                            <p class="register-soon">Register: Payments through Qi Services (Al Rafidain Bank) and  FIB card payments are coming soon.</p>
-                            <p> Alternatively, 
-                            researchers can register in person at the conference venue on October 30th, at 9:00 AM, at the Cultural Centre of Salahaddin University-Erbil.</p>
-                        <p>Please feel free to contact us with any inquiries at iceit2024@su.edu.krd</p>
-                        
+                            <p class="register-soon">Register: Payments through Qi Services (Al Rafidain Bank) and FIB
+                                card payments are coming soon.</p>
+                            <p> Alternatively,
+                                researchers can register in person at the conference venue on October 30th, at 9:00 AM,
+                                at the Cultural Centre of Salahaddin University-Erbil.</p>
+                            <p>Please feel free to contact us with any inquiries at SU-ICEIT2026@su.edu.krd</p>
+
                         </section>
                     </div>
 
@@ -148,7 +155,7 @@
 
             <div class="row">
 
-                <?php include 'components/footer.php'; ?>
+                <div data-include="components/footer.html"></div>
 
             </div>
         </div>
