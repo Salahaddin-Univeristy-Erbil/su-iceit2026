@@ -432,54 +432,9 @@ body {
 /*-----------------------------*/
 /*------------overlay-----------*/
 
-.overlay-button {
-  position: absolute;
-  bottom: 0px;
-  /* Adjust to stay centered on line */
-  /* Adjust as needed */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70px;
-  /* Size of the button */
-  height: 70px;
-  /* Size of the button */
-  border-radius: 50%;
-  background-color: #ff6c3791;
-  /* Orange button */
-  /* Half transparent white */
-  border: 4px solid white;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 100;
-}
-
-.overlay-button:hover {
-  background-color: #e65c2e;
-  transform: translateX(-50%) scale(1.1);
-}
-
 .arrow {
   color: white;
   font-size: 24px;
   /* Adjust as needed */
   transition: transform 0.3s ease;
-}
-
-.overlay-button:hover .arrow {
-  transform: translateY(3px);
-  /* Small animation on hover */
-}
-
-@media (max-width: 700px) {
-  .overlay-button {
-    /* display: none;  Removed display:none to make it modern */
-    width: 50px;
-    height: 50px;
-    bottom: -25px;
-  }
 }
