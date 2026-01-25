@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9;
 }
 
 
@@ -13,9 +14,11 @@ header {
   padding: 0;
   overflow: hidden;
 }
-.main-logo{
+
+.main-logo {
   width: 30%;
 }
+
 header img {
   width: auto;
 
@@ -23,14 +26,15 @@ header img {
   height: auto;
   object-fit: cover;
   object-position: center;
-  
+
 }
 
 
-.logo-overlay{
+.logo-overlay {
   font-size: 5rem;
   font-weight: bold;
-  color:#ff6c37;
+  color: #FF6C37;
+  /* Orange */
   font-family: 'Inconsolata bold', monospace;
   position: absolute;
   top: 10%;
@@ -58,15 +62,18 @@ header img {
   text-align: center;
   text-decoration: none;
   padding: 10px 30px;
-  background-color: rgba(233, 228, 227, 0.747);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   /*add box shadow */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link:hover {
-  background-color: rgb(209, 160, 154);
+  background-color: #FFF0E6;
+  /* Light orange */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .nav-link img {
@@ -76,15 +83,18 @@ header img {
 
 .nav-link span {
   font-size: 27px;
-  color: rgb(95, 35, 27);
+  color: #D94A1E;
+  /* Dark orange */
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
-  .logo-overlay{
+  .logo-overlay {
     top: 3%;
     font-size: 2rem;
 
   }
+
   .nav-container {
     margin-top: -40px;
   }
@@ -120,7 +130,9 @@ header img {
 
 .header {
   margin: 15px 0px;
-  color: rgb(116, 45, 44);
+  color: #A9271E;
+  /* Keeping text headers a bit darker, could use dark grey #333, but let's go with deep orange/red for now or dark orange */
+  color: #D94A1E;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -146,7 +158,8 @@ header img {
   flex: 0 0 24%;
   order: 2;
   margin: 10px;
-  border-bottom: 2px solid rgb(116, 45, 44);
+  border-bottom: 3px solid #FF6C37;
+  /* Orange underline */
 }
 
 #announcement div {
@@ -154,12 +167,14 @@ header img {
 
   text-align: center;
   font-size: 1.7rem;
-
+  background-color: white;
   border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 #announcement .date {
   font-weight: bold;
+  color: #D94A1E;
 }
 
 /* Small screens */
