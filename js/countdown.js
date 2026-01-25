@@ -1,5 +1,5 @@
 function updateCountdown() {
-  var targetDate = new Date("31 October 2026 08:00:00").getTime();
+  var targetDate = new Date("28 October 2026 08:00:00").getTime();
   var now = new Date().getTime();
 
   var difference = targetDate - now;
